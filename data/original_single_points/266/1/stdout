@@ -1,0 +1,119 @@
+Detected ibrav 12 from lattice vectors.
+You have selected Pulay or Broyden mixing so potential acceleration is disabled.
+Too many eigenvalue multigrid levels specified. Resetting to 1
+RMG running with 8 MPI procs per host.
+C4: Numa aware allocation with 8 MPI procs, 128 cores and 4 numa nodes per host.
+Running with 7 Open MP threads.
+Running with 5 RMG threads.
+
+               * * * * * * * * * *
+               *    R   M   G    *
+               * * * * * * * * * *
+
+ -- A Real Space Multigrid Electronic structure code --
+ --      More information at www.rmgdft.org          --
+
+
+
+NOTICE: RMG internal pseudopotentials have switched to
+ONCVP from Ultrasoft. You can revert to Ultrasoft by
+adding the input tag internal_pseudo_type="ultrasoft" to
+your input files.
+
+
+ write_data: Opening output file 'Waves/wave.out_init.restart' failed
+  Trying to create subdirectory in case it does not exist
+
+ Creating directory Waves successfully
+
+
+ quench: [md:   0/100  scf:   0/200  step time:  20.84  scf time:    21.59 secs  RMS[dV]: ******** ]
+ quench: [md:   0/100  scf:   1/200  step time:   8.93  scf time:    30.52 secs  RMS[dV]: 3.18e+00 ]
+ quench: [md:   0/100  scf:   2/200  step time:   6.41  scf time:    36.93 secs  RMS[dV]: 3.22e-01 ]
+ quench: [md:   0/100  scf:   3/200  step time:   4.67  scf time:    41.60 secs  RMS[dV]: 3.96e-01 ]
+ quench: [md:   0/100  scf:   4/200  step time:  12.24  scf time:    53.84 secs  RMS[dV]: 2.65e-01 ]
+ quench: [md:   0/100  scf:   5/200  step time:   5.90  scf time:    59.74 secs  RMS[dV]: 1.21e-01 ]
+ quench: [md:   0/100  scf:   6/200  step time:   8.82  scf time:    68.56 secs  RMS[dV]: 1.05e-01 ]
+ quench: [md:   0/100  scf:   7/200  step time:   5.68  scf time:    74.24 secs  RMS[dV]: 1.60e-01 ]
+ quench: [md:   0/100  scf:   8/200  step time:   9.92  scf time:    84.15 secs  RMS[dV]: 5.01e-02 ]
+ quench: [md:   0/100  scf:   9/200  step time:   4.68  scf time:    88.83 secs  RMS[dV]: 4.74e-02 ]
+ quench: [md:   0/100  scf:  10/200  step time:  11.76  scf time:   100.60 secs  RMS[dV]: 5.13e-02 ]
+ quench: [md:   0/100  scf:  11/200  step time:   3.85  scf time:   104.44 secs  RMS[dV]: 1.02e-01 ]
+ quench: [md:   0/100  scf:  12/200  step time:   4.68  scf time:   109.13 secs  RMS[dV]: 5.81e-02 ]
+ quench: [md:   0/100  scf:  13/200  step time:  12.48  scf time:   121.61 secs  RMS[dV]: 1.59e-02 ]
+ quench: [md:   0/100  scf:  14/200  step time:   3.80  scf time:   125.41 secs  RMS[dV]: 1.58e-02 ]
+ quench: [md:   0/100  scf:  15/200  step time:   3.80  scf time:   129.21 secs  RMS[dV]: 1.93e-02 ]
+ quench: [md:   0/100  scf:  16/200  step time:   3.84  scf time:   133.05 secs  RMS[dV]: 1.80e-02 ]
+ quench: [md:   0/100  scf:  17/200  step time:   5.68  scf time:   138.73 secs  RMS[dV]: 1.75e-02 ]
+ quench: [md:   0/100  scf:  18/200  step time:   4.50  scf time:   143.23 secs  RMS[dV]: 1.18e-02 ]
+ quench: [md:   0/100  scf:  19/200  step time:   4.55  scf time:   147.78 secs  RMS[dV]: 1.07e-02 ]
+ quench: [md:   0/100  scf:  20/200  step time:   6.60  scf time:   154.38 secs  RMS[dV]: 8.19e-03 ]
+ quench: [md:   0/100  scf:  21/200  step time:  12.55  scf time:   166.93 secs  RMS[dV]: 9.75e-03 ]
+ quench: [md:   0/100  scf:  22/200  step time:   3.85  scf time:   170.79 secs  RMS[dV]: 1.23e-02 ]
+ quench: [md:   0/100  scf:  23/200  step time:   5.33  scf time:   176.12 secs  RMS[dV]: 1.05e-02 ]
+ quench: [md:   0/100  scf:  24/200  step time:   8.48  scf time:   184.60 secs  RMS[dV]: 5.26e-03 ]
+ quench: [md:   0/100  scf:  25/200  step time:   4.48  scf time:   189.09 secs  RMS[dV]: 6.02e-03 ]
+ quench: [md:   0/100  scf:  26/200  step time:  11.23  scf time:   200.31 secs  RMS[dV]: 5.02e-03 ]
+ quench: [md:   0/100  scf:  27/200  step time:   4.46  scf time:   204.78 secs  RMS[dV]: 5.16e-03 ]
+ quench: [md:   0/100  scf:  28/200  step time:   7.92  scf time:   212.70 secs  RMS[dV]: 3.55e-03 ]
+ quench: [md:   0/100  scf:  29/200  step time:   4.36  scf time:   217.06 secs  RMS[dV]: 3.10e-03 ]
+ quench: [md:   0/100  scf:  30/200  step time:   9.35  scf time:   226.41 secs  RMS[dV]: 3.17e-03 ]
+ quench: [md:   0/100  scf:  31/200  step time:   9.55  scf time:   235.97 secs  RMS[dV]: 2.32e-03 ]
+ quench: [md:   0/100  scf:  32/200  step time:  10.37  scf time:   246.34 secs  RMS[dV]: 2.44e-03 ]
+ quench: [md:   0/100  scf:  33/200  step time:   4.49  scf time:   250.83 secs  RMS[dV]: 1.47e-03 ]
+ quench: [md:   0/100  scf:  34/200  step time:   8.73  scf time:   259.56 secs  RMS[dV]: 1.47e-03 ]
+ quench: [md:   0/100  scf:  35/200  step time:  10.81  scf time:   270.37 secs  RMS[dV]: 1.68e-03 ]
+ quench: [md:   0/100  scf:  36/200  step time:   4.50  scf time:   274.86 secs  RMS[dV]: 2.30e-03 ]
+ quench: [md:   0/100  scf:  37/200  step time:   3.74  scf time:   278.61 secs  RMS[dV]: 2.30e-03 ]
+ quench: [md:   0/100  scf:  38/200  step time:   3.76  scf time:   282.37 secs  RMS[dV]: 1.88e-03 ]
+ quench: [md:   0/100  scf:  39/200  step time:   4.54  scf time:   286.91 secs  RMS[dV]: 1.48e-03 ]
+ quench: [md:   0/100  scf:  40/200  step time:   7.42  scf time:   294.34 secs  RMS[dV]: 8.67e-04 ]
+ quench: [md:   0/100  scf:  41/200  step time:   9.44  scf time:   303.78 secs  RMS[dV]: 1.43e-03 ]
+ quench: [md:   0/100  scf:  42/200  step time:   7.79  scf time:   311.57 secs  RMS[dV]: 8.79e-04 ]
+ quench: [md:   0/100  scf:  43/200  step time:   3.77  scf time:   315.34 secs  RMS[dV]: 7.52e-04 ]
+ quench: [md:   0/100  scf:  44/200  step time:   4.42  scf time:   319.76 secs  RMS[dV]: 8.52e-04 ]
+ quench: [md:   0/100  scf:  45/200  step time:   8.09  scf time:   327.85 secs  RMS[dV]: 6.97e-04 ]
+ quench: [md:   0/100  scf:  46/200  step time:   9.25  scf time:   337.10 secs  RMS[dV]: 3.74e-04 ]
+ quench: [md:   0/100  scf:  47/200  step time:   3.67  scf time:   340.77 secs  RMS[dV]: 3.96e-04 ]
+ quench: [md:   0/100  scf:  48/200  step time:   4.39  scf time:   345.16 secs  RMS[dV]: 5.07e-04 ]
+ quench: [md:   0/100  scf:  49/200  step time:   6.13  scf time:   351.29 secs  RMS[dV]: 5.92e-04 ]
+ quench: [md:   0/100  scf:  50/200  step time:   6.05  scf time:   357.72 secs  RMS[dV]: 5.54e-04 ]
+ quench: [md:   0/100  scf:  51/200  step time:   8.46  scf time:   366.19 secs  RMS[dV]: 4.59e-04 ]
+ quench: [md:   0/100  scf:  52/200  step time:   5.92  scf time:   372.10 secs  RMS[dV]: 2.85e-04 ]
+ quench: [md:   0/100  scf:  53/200  step time:   6.08  scf time:   378.18 secs  RMS[dV]: 2.44e-04 ]
+ quench: [md:   0/100  scf:  54/200  step time:   5.34  scf time:   383.52 secs  RMS[dV]: 1.82e-04 ]
+ quench: [md:   0/100  scf:  55/200  step time:  10.76  scf time:   394.29 secs  RMS[dV]: 4.96e-04 ]
+ quench: [md:   0/100  scf:  56/200  step time:   7.70  scf time:   401.98 secs  RMS[dV]: 4.19e-04 ]
+ quench: [md:   0/100  scf:  57/200  step time:   5.89  scf time:   407.87 secs  RMS[dV]: 7.17e-05 ]
+ quench: [md:   0/100  scf:  58/200  step time:  10.63  scf time:   418.50 secs  RMS[dV]: 1.42e-04 ]
+ quench: [md:   0/100  scf:  59/200  step time:   7.82  scf time:   426.32 secs  RMS[dV]: 4.74e-04 ]
+ quench: [md:   0/100  scf:  60/200  step time:   8.73  scf time:   435.05 secs  RMS[dV]: 4.44e-04 ]
+ quench: [md:   0/100  scf:  61/200  step time:   3.63  scf time:   438.68 secs  RMS[dV]: 2.70e-04 ]
+ quench: [md:   0/100  scf:  62/200  step time:   5.52  scf time:   444.20 secs  RMS[dV]: 1.62e-04 ]
+ quench: [md:   0/100  scf:  63/200  step time:  12.59  scf time:   456.80 secs  RMS[dV]: 2.95e-04 ]
+ quench: [md:   0/100  scf:  64/200  step time:   3.63  scf time:   460.43 secs  RMS[dV]: 6.16e-05 ]
+ quench: [md:   0/100  scf:  65/200  step time:   3.67  scf time:   464.10 secs  RMS[dV]: 9.67e-05 ]
+ quench: [md:   0/100  scf:  66/200  step time:   7.71  scf time:   471.81 secs  RMS[dV]: 6.49e-05 ]
+ quench: [md:   0/100  scf:  67/200  step time:   6.54  scf time:   478.35 secs  RMS[dV]: 2.91e-05 ]
+ quench: [md:   0/100  scf:  68/200  step time:  10.36  scf time:   488.71 secs  RMS[dV]: 1.54e-04 ]
+ quench: [md:   0/100  scf:  69/200  step time:   4.26  scf time:   492.98 secs  RMS[dV]: 1.62e-04 ]
+ quench: [md:   0/100  scf:  70/200  step time:   8.62  scf time:   501.60 secs  RMS[dV]: 1.38e-04 ]
+ quench: [md:   0/100  scf:  71/200  step time:  10.15  scf time:   511.75 secs  RMS[dV]: 2.11e-04 ]
+ quench: [md:   0/100  scf:  72/200  step time:   4.25  scf time:   516.00 secs  RMS[dV]: 9.40e-05 ]
+ quench: [md:   0/100  scf:  73/200  step time:   5.75  scf time:   521.75 secs  RMS[dV]: 4.68e-05 ]
+ quench: [md:   0/100  scf:  74/200  step time:  12.44  scf time:   534.19 secs  RMS[dV]: 7.76e-05 ]
+ quench: [md:   0/100  scf:  75/200  step time:   3.73  scf time:   537.92 secs  RMS[dV]: 3.28e-05 ]
+ quench: [md:   0/100  scf:  76/200  step time:   3.72  scf time:   541.65 secs  RMS[dV]: 1.54e-05 ]
+ quench: [md:   0/100  scf:  77/200  step time:   4.29  scf time:   545.93 secs  RMS[dV]: 2.84e-05 ]
+ quench: [md:   0/100  scf:  78/200  step time:  10.73  scf time:   556.66 secs  RMS[dV]: 4.92e-05 ]
+ quench: [md:   0/100  scf:  79/200  step time:   4.34  scf time:   561.00 secs  RMS[dV]: 1.71e-05 ]
+ quench: [md:   0/100  scf:  80/200  step time:   3.61  scf time:   564.61 secs  RMS[dV]: 2.07e-05 ]
+ quench: [md:   0/100  scf:  81/200  step time:   6.30  scf time:   570.92 secs  RMS[dV]: 2.51e-05 ]
+ quench: [md:   0/100  scf:  82/200  step time:   3.60  scf time:   574.52 secs  RMS[dV]: 2.07e-05 ]
+ quench: [md:   0/100  scf:  83/200  step time:   3.62  scf time:   578.14 secs  RMS[dV]: 1.35e-05 ]
+ quench: [md:   0/100  scf:  84/200  step time:   3.68  scf time:   581.82 secs  RMS[dV]: 1.10e-05 ]
+ Convergence criterion reached: Energy variation (8.48e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -25.161610  -5.593112  3.905568 
+ -5.593094  -9.777964  -3.894536 
+ 3.905560  -3.894531  -15.827266 

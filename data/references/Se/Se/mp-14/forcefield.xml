@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modeling/>
+<converged>
+  <force>True</force>
+  <scf>True</scf>
+  <scf_convergent>True</scf_convergent>
+  <force_convergent>True</force_convergent>
+</converged>
+<atominfo>
+  <atoms>3</atoms>
+  <types>1</types>
+  <array name="atoms">
+    <field type="string">element</field>
+    <field type="int">atomtype</field>
+    <dimension dim="1">ion</dimension>
+    <set>
+      <rc>
+        <c>Se</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Se</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Se</c>
+        <c>1</c>
+      </rc>
+    </set>
+  </array>
+</atominfo>
+<energy units="Ha">
+  <i name="ion-ion">      -26.725965</i>
+  <i name="electrostatic">      -2.866259</i>
+  <i name="vxc">      -7.959294</i>
+  <i name="exc">      -6.127795</i>
+  <i name="vdw_corr">      -0.023939</i>
+  <i name="fock">      0.000000</i>
+  <i name="total">      -28.384195</i>
+</energy>
+<varray name="forces" units="Ha/a0">
+  <v>      -0.000132      -0.000039      0.000158 </v>
+  <v>      0.000085      0.000159      0.000020 </v>
+  <v>      0.000047      -0.000120      -0.000177 </v>
+</varray>
+<varray name="stress" units="kbar">
+  <v>      -0.451724      0.108772      0.073442</v>
+  <v>      0.108772      -0.280129      0.000530</v>
+  <v>      0.073442      0.000530      0.489498</v>
+</varray>
+<varray name="voronoi_charge">
+  <v>      -0.000812 </v>
+  <v>      0.001344 </v>
+  <v>      -0.000533 </v>
+</varray>
+<structure name="finalpos">
+  <crystal>
+    <varray name="basis" units="bohr">
+      <v>7.884484  0.000000  0.000000 </v>
+      <v>-3.942242  6.828163  0.000000 </v>
+      <v>0.000000  0.000000  9.668509 </v>
+    </varray>
+    <varray name="rec_basis">
+      <v>0.126831      0.073226      -0.000000 </v>
+      <v>0.000000      0.146452      0.000000 </v>
+      <v>0.000000      -0.000000      0.103429 </v>
+    </varray>
+  </crystal>
+  <varray name="positions" units="crystal">
+    <v>      0.029846      0.802680      0.353601 </v>
+    <v>      0.269679      0.283338      0.687129 </v>
+    <v>      0.788973      0.043473      0.020710 </v>
+  </varray>
+</structure>

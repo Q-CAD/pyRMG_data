@@ -1,0 +1,46 @@
+calculation_mode = "Relax Structure"
+cell_relax = "True"
+charge_density_mixing = "0.05"
+charge_mixing_type = "Broyden"
+description = "Example parameters for high-throughput bulk relaxation of a vdW material"
+energy_convergence_criterion = "1e-10"
+energy_output_units = "Hartrees"
+kohn_sham_mucycles = "3"
+kohn_sham_solver = "davidson"
+kpoint_mesh = "4 4 1"
+localize_projectors = "False"
+max_md_steps = "100"
+max_scf_steps = "100"
+non_local_block_size = "4000"
+output_wave_function_file = "/dev/null"
+potential_acceleration_constant_step = "1.5"
+processor_grid = "2 2 6"
+rms_convergence_criterion = "1e-08"
+scalapack_block_factor = "64"
+start_mode = "LCAO Start"
+state_block_size = "64"
+stress = "True"
+subdiag_driver = "scalapack"
+use_async_allreduce = "False"
+vdw_corr = "DFT-D3"
+vdwdf_kernel_filepath = "/lustre/orion/world-shared/cph162/rjmorelock/rmgdft/XC/vdW_kernel_table"
+wavefunction_grid = "30 30 78"
+write_data_period = "50"
+
+atomic_coordinate_type = "Absolute"
+crds_units = "Angstrom"
+lattice_units = "Angstrom"
+
+lattice_vector = "
+2.269004742179e+00 -3.930031496069e+00 0.000000000000e+00
+2.269004742179e+00 3.930031496069e+00 0.000000000000e+00
+0.000000000000e+00 0.000000000000e+00 1.230848680587e+01
+"
+atoms = "
+Bi 2.297152212925e+00 1.308579867023e+00 1.100805195005e+01 1 1 1 0.0 0.0 0.0
+Bi -2.550336700153e-01 -1.363995691241e-01 9.450388758813e+00 1 1 1 0.0 0.0 0.0
+Bi 2.090194813648e-01 1.661285744493e-01 2.933439876727e+00 1 1 1 0.0 0.0 0.0
+Bi 2.305682038711e+00 -1.217855506711e+00 1.321348659242e+00 1 1 1 0.0 0.0 0.0
+Bi 2.230416170395e+00 -1.264055734499e+00 7.218807857029e+00 1 1 1 0.0 0.0 0.0
+Bi 2.232582547230e+00 1.321428473876e+00 5.296708285915e+00 1 1 1 0.0 0.0 0.0
+"

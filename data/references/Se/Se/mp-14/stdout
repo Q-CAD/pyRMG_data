@@ -1,0 +1,841 @@
+Detected ibrav 4 from lattice vectors.
+You have selected Pulay or Broyden mixing so potential acceleration is disabled.
+Auto processor grid settings: npes=2 PE_X=2 PE_Y=1 PE_Z=1
+RMG running with 2 MPI procs per host.
+Running with 7 Open MP threads.
+Running with 5 RMG threads.
+
+               * * * * * * * * * *
+               *    R   M   G    *
+               * * * * * * * * * *
+
+ -- A Real Space Multigrid Electronic structure code --
+ --      More information at www.rmgdft.org          --
+
+
+
+NOTICE: RMG internal pseudopotentials have switched to
+ONCVP from Ultrasoft. You can revert to Ultrasoft by
+adding the input tag internal_pseudo_type="ultrasoft" to
+your input files.
+
+
+ quench: [md:   0/100  scf:   0/100  step time:   1.96  scf time:     2.00 secs  RMS[dV]: ******** ]
+ quench: [md:   0/100  scf:   1/100  step time:   0.88  scf time:     2.88 secs  RMS[dV]: 1.40e-02 ]
+ quench: [md:   0/100  scf:   2/100  step time:   0.88  scf time:     3.76 secs  RMS[dV]: 1.17e-02 ]
+ quench: [md:   0/100  scf:   3/100  step time:   1.36  scf time:     5.12 secs  RMS[dV]: 4.05e-03 ]
+ quench: [md:   0/100  scf:   4/100  step time:   0.88  scf time:     6.00 secs  RMS[dV]: 5.35e-03 ]
+ quench: [md:   0/100  scf:   5/100  step time:   0.94  scf time:     6.94 secs  RMS[dV]: 3.78e-03 ]
+ quench: [md:   0/100  scf:   6/100  step time:   2.02  scf time:     8.96 secs  RMS[dV]: 6.47e-04 ]
+ quench: [md:   0/100  scf:   7/100  step time:   1.09  scf time:    10.05 secs  RMS[dV]: 6.56e-04 ]
+ quench: [md:   0/100  scf:   8/100  step time:   0.88  scf time:    10.93 secs  RMS[dV]: 1.14e-03 ]
+ quench: [md:   0/100  scf:   9/100  step time:   0.89  scf time:    11.82 secs  RMS[dV]: 1.43e-03 ]
+ quench: [md:   0/100  scf:  10/100  step time:   0.89  scf time:    12.70 secs  RMS[dV]: 1.48e-03 ]
+ quench: [md:   0/100  scf:  11/100  step time:   0.88  scf time:    13.59 secs  RMS[dV]: 1.25e-03 ]
+ quench: [md:   0/100  scf:  12/100  step time:   0.88  scf time:    14.47 secs  RMS[dV]: 1.20e-03 ]
+ quench: [md:   0/100  scf:  13/100  step time:   1.09  scf time:    15.56 secs  RMS[dV]: 8.10e-04 ]
+ quench: [md:   0/100  scf:  14/100  step time:   1.15  scf time:    16.71 secs  RMS[dV]: 1.90e-04 ]
+ quench: [md:   0/100  scf:  15/100  step time:   0.89  scf time:    17.60 secs  RMS[dV]: 1.30e-04 ]
+ quench: [md:   0/100  scf:  16/100  step time:   1.07  scf time:    18.67 secs  RMS[dV]: 5.80e-05 ]
+ quench: [md:   0/100  scf:  17/100  step time:   1.06  scf time:    19.73 secs  RMS[dV]: 5.91e-05 ]
+ quench: [md:   0/100  scf:  18/100  step time:   1.01  scf time:    20.74 secs  RMS[dV]: 2.67e-05 ]
+ quench: [md:   0/100  scf:  19/100  step time:   1.09  scf time:    21.83 secs  RMS[dV]: 2.54e-05 ]
+ quench: [md:   0/100  scf:  20/100  step time:   0.96  scf time:    22.80 secs  RMS[dV]: 2.33e-05 ]
+ quench: [md:   0/100  scf:  21/100  step time:   1.36  scf time:    24.16 secs  RMS[dV]: 3.17e-06 ]
+ quench: [md:   0/100  scf:  22/100  step time:   1.12  scf time:    25.27 secs  RMS[dV]: 5.01e-06 ]
+ quench: [md:   0/100  scf:  23/100  step time:   0.97  scf time:    26.24 secs  RMS[dV]: 2.61e-06 ]
+ Convergence criterion reached: Energy variation (2.18e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 3.095952  -1.399561  1.614099 
+ -1.399561  1.682738  -0.665740 
+ 1.614099  -0.665740  9.681154 
+
+     BFGS Geometry Optimization
+
+     Energy error            =      0.0E+00 Ha
+     Gradient error          =      4.0E-03 Ha/Bohr
+     Cell gradient error     =      9.7E+00 kbar
+
+     number of scf cycles    =   1
+     number of bfgs steps    =   0
+
+     enthalpy           new  =     -28.3839820920 Ha
+
+     new trust radius        =       0.0084339426 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.204
+  A0-A1 density:    13.967
+  A0-A2 density:    11.604
+  A1-A2 density:    11.604
+Planar Anisotropy is large: 1.203633
+ quench: [md:   1/100  scf:   0/100  step time:   0.91  scf time:     0.95 secs  RMS[dV]: ******** ]
+ quench: [md:   1/100  scf:   1/100  step time:   1.65  scf time:     2.60 secs  RMS[dV]: 3.50e-04 ]
+ quench: [md:   1/100  scf:   2/100  step time:   0.84  scf time:     3.44 secs  RMS[dV]: 2.25e-04 ]
+ quench: [md:   1/100  scf:   3/100  step time:   0.95  scf time:     4.39 secs  RMS[dV]: 1.66e-04 ]
+ quench: [md:   1/100  scf:   4/100  step time:   1.04  scf time:     5.42 secs  RMS[dV]: 5.72e-05 ]
+ quench: [md:   1/100  scf:   5/100  step time:   0.91  scf time:     6.33 secs  RMS[dV]: 3.52e-05 ]
+ quench: [md:   1/100  scf:   6/100  step time:   0.96  scf time:     7.29 secs  RMS[dV]: 1.96e-05 ]
+ quench: [md:   1/100  scf:   7/100  step time:   0.89  scf time:     8.18 secs  RMS[dV]: 1.34e-05 ]
+ quench: [md:   1/100  scf:   8/100  step time:   1.28  scf time:     9.45 secs  RMS[dV]: 4.22e-06 ]
+ quench: [md:   1/100  scf:   9/100  step time:   0.89  scf time:    10.34 secs  RMS[dV]: 5.37e-06 ]
+ quench: [md:   1/100  scf:  10/100  step time:   0.90  scf time:    11.25 secs  RMS[dV]: 4.91e-06 ]
+ Convergence criterion reached: Energy variation (3.41e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -0.095965  -1.144453  1.134402 
+ -1.144453  -1.284702  -0.468560 
+ 1.134402  -0.468560  4.835044 
+
+     Energy error            =      6.9E-05 Ha
+     Gradient error          =      2.5E-03 Ha/Bohr
+     Cell gradient error     =      4.8E+00 kbar
+
+     number of scf cycles    =   2
+     number of bfgs steps    =   1
+
+     enthalpy           old  =     -28.3839820920 Ha
+     enthalpy           new  =     -28.3840514630 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0092810248 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.206
+  A0-A1 density:    13.971
+  A0-A2 density:    11.589
+  A1-A2 density:    11.589
+Planar Anisotropy is large: 1.205594
+ quench: [md:   2/100  scf:   0/100  step time:   0.92  scf time:     0.97 secs  RMS[dV]: ******** ]
+ quench: [md:   2/100  scf:   1/100  step time:   1.92  scf time:     2.89 secs  RMS[dV]: 2.47e-04 ]
+ quench: [md:   2/100  scf:   2/100  step time:   1.06  scf time:     3.95 secs  RMS[dV]: 4.95e-05 ]
+ quench: [md:   2/100  scf:   3/100  step time:   0.98  scf time:     4.93 secs  RMS[dV]: 3.43e-05 ]
+ quench: [md:   2/100  scf:   4/100  step time:   1.30  scf time:     6.23 secs  RMS[dV]: 1.26e-05 ]
+ quench: [md:   2/100  scf:   5/100  step time:   0.89  scf time:     7.12 secs  RMS[dV]: 1.29e-05 ]
+ quench: [md:   2/100  scf:   6/100  step time:   0.89  scf time:     8.01 secs  RMS[dV]: 1.03e-05 ]
+ quench: [md:   2/100  scf:   7/100  step time:   0.89  scf time:     8.90 secs  RMS[dV]: 4.96e-06 ]
+ quench: [md:   2/100  scf:   8/100  step time:   1.18  scf time:    10.09 secs  RMS[dV]: 2.19e-06 ]
+ Convergence criterion reached: Energy variation (5.24e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -2.787570  -0.816157  0.612058 
+ -0.816157  -3.674261  -0.257725 
+ 0.612058  -0.257725  0.860062 
+
+     Energy error            =      2.8E-05 Ha
+     Gradient error          =      1.2E-03 Ha/Bohr
+     Cell gradient error     =      3.7E+00 kbar
+
+     number of scf cycles    =   3
+     number of bfgs steps    =   2
+
+     enthalpy           old  =     -28.3840514630 Ha
+     enthalpy           new  =     -28.3840797717 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0095927510 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.208
+  A0-A1 density:    13.998
+  A0-A2 density:    11.587
+  A1-A2 density:    11.587
+Planar Anisotropy is large: 1.208094
+ quench: [md:   3/100  scf:   0/100  step time:   0.91  scf time:     0.96 secs  RMS[dV]: ******** ]
+ quench: [md:   3/100  scf:   1/100  step time:   1.88  scf time:     2.83 secs  RMS[dV]: 2.63e-04 ]
+ quench: [md:   3/100  scf:   2/100  step time:   0.94  scf time:     3.78 secs  RMS[dV]: 7.57e-05 ]
+ quench: [md:   3/100  scf:   3/100  step time:   1.07  scf time:     4.84 secs  RMS[dV]: 5.36e-05 ]
+ quench: [md:   3/100  scf:   4/100  step time:   1.10  scf time:     5.95 secs  RMS[dV]: 2.31e-05 ]
+ quench: [md:   3/100  scf:   5/100  step time:   0.90  scf time:     6.85 secs  RMS[dV]: 1.75e-05 ]
+ quench: [md:   3/100  scf:   6/100  step time:   0.91  scf time:     7.76 secs  RMS[dV]: 1.04e-05 ]
+ quench: [md:   3/100  scf:   7/100  step time:   0.90  scf time:     8.65 secs  RMS[dV]: 7.57e-06 ]
+ quench: [md:   3/100  scf:   8/100  step time:   0.90  scf time:     9.56 secs  RMS[dV]: 4.26e-06 ]
+ quench: [md:   3/100  scf:   9/100  step time:   1.11  scf time:    10.67 secs  RMS[dV]: 3.25e-06 ]
+ quench: [md:   3/100  scf:  10/100  step time:   0.92  scf time:    11.59 secs  RMS[dV]: 2.44e-06 ]
+ Convergence criterion reached: Energy variation (3.16e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -4.545084  -0.437624  0.123363 
+ -0.437624  -5.068808  -0.065868 
+ 0.123363  -0.065868  -1.674675 
+
+     Energy error            =      9.9E-06 Ha
+     Gradient error          =      4.2E-04 Ha/Bohr
+     Cell gradient error     =      5.1E+00 kbar
+
+     number of scf cycles    =   4
+     number of bfgs steps    =   3
+
+     enthalpy           old  =     -28.3840797717 Ha
+     enthalpy           new  =     -28.3840896702 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0129743790 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.212
+  A0-A1 density:    14.061
+  A0-A2 density:    11.600
+  A1-A2 density:    11.600
+Planar Anisotropy is large: 1.212128
+ quench: [md:   4/100  scf:   0/100  step time:   1.28  scf time:     1.33 secs  RMS[dV]: ******** ]
+ quench: [md:   4/100  scf:   1/100  step time:   1.80  scf time:     3.13 secs  RMS[dV]: 3.79e-04 ]
+ quench: [md:   4/100  scf:   2/100  step time:   1.01  scf time:     4.13 secs  RMS[dV]: 8.44e-05 ]
+ quench: [md:   4/100  scf:   3/100  step time:   0.98  scf time:     5.11 secs  RMS[dV]: 6.09e-05 ]
+ quench: [md:   4/100  scf:   4/100  step time:   1.18  scf time:     6.29 secs  RMS[dV]: 2.62e-05 ]
+ quench: [md:   4/100  scf:   5/100  step time:   0.89  scf time:     7.18 secs  RMS[dV]: 1.88e-05 ]
+ quench: [md:   4/100  scf:   6/100  step time:   0.88  scf time:     8.06 secs  RMS[dV]: 1.44e-05 ]
+ quench: [md:   4/100  scf:   7/100  step time:   0.88  scf time:     8.94 secs  RMS[dV]: 7.60e-06 ]
+ quench: [md:   4/100  scf:   8/100  step time:   0.89  scf time:     9.83 secs  RMS[dV]: 4.18e-06 ]
+ quench: [md:   4/100  scf:   9/100  step time:   1.09  scf time:    10.92 secs  RMS[dV]: 2.89e-06 ]
+ quench: [md:   4/100  scf:  10/100  step time:   1.06  scf time:    11.98 secs  RMS[dV]: 3.54e-06 ]
+ quench: [md:   4/100  scf:  11/100  step time:   0.90  scf time:    12.88 secs  RMS[dV]: 2.69e-06 ]
+ Convergence criterion reached: Energy variation (7.56e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -5.731595  0.085184  -0.452381 
+ 0.085184  -5.738587  0.156813 
+ -0.452381  0.156813  -3.345298 
+
+     Energy error            =      1.1E-05 Ha
+     Gradient error          =      5.6E-04 Ha/Bohr
+     Cell gradient error     =      5.7E+00 kbar
+
+     number of scf cycles    =   5
+     number of bfgs steps    =   4
+
+     enthalpy           old  =     -28.3840896702 Ha
+     enthalpy           new  =     -28.3841008282 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0194177940 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.218
+  A0-A1 density:    14.164
+  A0-A2 density:    11.633
+  A1-A2 density:    11.633
+Planar Anisotropy is large: 1.217603
+ quench: [md:   5/100  scf:   0/100  step time:   1.08  scf time:     1.13 secs  RMS[dV]: ******** ]
+ quench: [md:   5/100  scf:   1/100  step time:   1.83  scf time:     2.96 secs  RMS[dV]: 3.59e-04 ]
+ quench: [md:   5/100  scf:   2/100  step time:   1.02  scf time:     3.98 secs  RMS[dV]: 9.11e-05 ]
+ quench: [md:   5/100  scf:   3/100  step time:   0.90  scf time:     4.88 secs  RMS[dV]: 6.61e-05 ]
+ quench: [md:   5/100  scf:   4/100  step time:   1.06  scf time:     5.94 secs  RMS[dV]: 3.28e-05 ]
+ quench: [md:   5/100  scf:   5/100  step time:   0.87  scf time:     6.81 secs  RMS[dV]: 2.53e-05 ]
+ quench: [md:   5/100  scf:   6/100  step time:   1.07  scf time:     7.88 secs  RMS[dV]: 1.82e-05 ]
+ quench: [md:   5/100  scf:   7/100  step time:   0.86  scf time:     8.75 secs  RMS[dV]: 1.46e-05 ]
+ quench: [md:   5/100  scf:   8/100  step time:   1.16  scf time:     9.91 secs  RMS[dV]: 4.85e-06 ]
+ quench: [md:   5/100  scf:   9/100  step time:   0.88  scf time:    10.79 secs  RMS[dV]: 3.37e-06 ]
+ Convergence criterion reached: Energy variation (7.68e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -5.880554  0.655810  -0.992864 
+ 0.655810  -5.302681  0.369304 
+ -0.992864  0.369304  -3.574046 
+
+     Energy error            =      1.9E-05 Ha
+     Gradient error          =      1.0E-03 Ha/Bohr
+     Cell gradient error     =      5.5E+00 kbar
+
+     number of scf cycles    =   6
+     number of bfgs steps    =   5
+
+     enthalpy           old  =     -28.3841008282 Ha
+     enthalpy           new  =     -28.3841197401 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0252354383 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.224
+  A0-A1 density:    14.299
+  A0-A2 density:    11.681
+  A1-A2 density:    11.681
+Planar Anisotropy is large: 1.224151
+ quench: [md:   6/100  scf:   0/100  step time:   1.07  scf time:     1.11 secs  RMS[dV]: ******** ]
+ quench: [md:   6/100  scf:   1/100  step time:   1.88  scf time:     2.99 secs  RMS[dV]: 3.41e-04 ]
+ quench: [md:   6/100  scf:   2/100  step time:   0.99  scf time:     3.99 secs  RMS[dV]: 9.35e-05 ]
+ quench: [md:   6/100  scf:   3/100  step time:   0.87  scf time:     4.85 secs  RMS[dV]: 6.72e-05 ]
+ quench: [md:   6/100  scf:   4/100  step time:   0.97  scf time:     5.82 secs  RMS[dV]: 3.47e-05 ]
+ quench: [md:   6/100  scf:   5/100  step time:   1.02  scf time:     6.84 secs  RMS[dV]: 2.68e-05 ]
+ quench: [md:   6/100  scf:   6/100  step time:   1.02  scf time:     7.86 secs  RMS[dV]: 1.37e-05 ]
+ quench: [md:   6/100  scf:   7/100  step time:   1.06  scf time:     8.92 secs  RMS[dV]: 9.21e-06 ]
+ quench: [md:   6/100  scf:   8/100  step time:   0.93  scf time:     9.85 secs  RMS[dV]: 3.61e-06 ]
+ quench: [md:   6/100  scf:   9/100  step time:   1.09  scf time:    10.94 secs  RMS[dV]: 2.37e-06 ]
+ Convergence criterion reached: Energy variation (6.57e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -4.806454  1.154948  -1.369571 
+ 1.154948  -3.690165  0.527255 
+ -1.369571  0.527255  -2.233819 
+
+     Energy error            =      2.2E-05 Ha
+     Gradient error          =      1.2E-03 Ha/Bohr
+     Cell gradient error     =      4.1E+00 kbar
+
+     number of scf cycles    =   7
+     number of bfgs steps    =   6
+
+     enthalpy           old  =     -28.3841197401 Ha
+     enthalpy           new  =     -28.3841418713 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0270075074 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.231
+  A0-A1 density:    14.445
+  A0-A2 density:    11.736
+  A1-A2 density:    11.736
+Planar Anisotropy is large: 1.230846
+ quench: [md:   7/100  scf:   0/100  step time:   1.27  scf time:     1.31 secs  RMS[dV]: ******** ]
+ quench: [md:   7/100  scf:   1/100  step time:   1.81  scf time:     3.12 secs  RMS[dV]: 3.82e-04 ]
+ quench: [md:   7/100  scf:   2/100  step time:   0.88  scf time:     4.00 secs  RMS[dV]: 1.09e-04 ]
+ quench: [md:   7/100  scf:   3/100  step time:   0.87  scf time:     4.87 secs  RMS[dV]: 7.58e-05 ]
+ quench: [md:   7/100  scf:   4/100  step time:   0.91  scf time:     5.78 secs  RMS[dV]: 4.38e-05 ]
+ quench: [md:   7/100  scf:   5/100  step time:   1.07  scf time:     6.84 secs  RMS[dV]: 2.58e-05 ]
+ quench: [md:   7/100  scf:   6/100  step time:   0.87  scf time:     7.72 secs  RMS[dV]: 1.42e-05 ]
+ quench: [md:   7/100  scf:   7/100  step time:   1.07  scf time:     8.78 secs  RMS[dV]: 8.69e-06 ]
+ quench: [md:   7/100  scf:   8/100  step time:   1.10  scf time:     9.88 secs  RMS[dV]: 3.76e-06 ]
+ quench: [md:   7/100  scf:   9/100  step time:   0.90  scf time:    10.78 secs  RMS[dV]: 3.11e-06 ]
+ Convergence criterion reached: Energy variation (3.76e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -2.494103  1.358963  -1.365615 
+ 1.358963  -1.102539  0.556033 
+ -1.365615  0.556033  0.512088 
+
+     Energy error            =      1.5E-05 Ha
+     Gradient error          =      1.1E-03 Ha/Bohr
+     Cell gradient error     =      1.7E+00 kbar
+
+     number of scf cycles    =   8
+     number of bfgs steps    =   7
+
+     enthalpy           old  =     -28.3841418713 Ha
+     enthalpy           new  =     -28.3841572723 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0067135093 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.232
+  A0-A1 density:    14.482
+  A0-A2 density:    11.750
+  A1-A2 density:    11.750
+Planar Anisotropy is large: 1.232498
+ quench: [md:   8/100  scf:   0/100  step time:   1.15  scf time:     1.19 secs  RMS[dV]: ******** ]
+ quench: [md:   8/100  scf:   1/100  step time:   1.40  scf time:     2.60 secs  RMS[dV]: 2.43e-04 ]
+ quench: [md:   8/100  scf:   2/100  step time:   0.85  scf time:     3.45 secs  RMS[dV]: 2.13e-04 ]
+ quench: [md:   8/100  scf:   3/100  step time:   0.85  scf time:     4.30 secs  RMS[dV]: 1.62e-04 ]
+ quench: [md:   8/100  scf:   4/100  step time:   0.94  scf time:     5.24 secs  RMS[dV]: 8.71e-05 ]
+ quench: [md:   8/100  scf:   5/100  step time:   0.85  scf time:     6.10 secs  RMS[dV]: 6.50e-05 ]
+ quench: [md:   8/100  scf:   6/100  step time:   0.88  scf time:     6.97 secs  RMS[dV]: 3.77e-05 ]
+ quench: [md:   8/100  scf:   7/100  step time:   0.86  scf time:     7.83 secs  RMS[dV]: 2.49e-05 ]
+ quench: [md:   8/100  scf:   8/100  step time:   1.30  scf time:     9.13 secs  RMS[dV]: 6.63e-06 ]
+ quench: [md:   8/100  scf:   9/100  step time:   1.09  scf time:    10.22 secs  RMS[dV]: 8.31e-06 ]
+ quench: [md:   8/100  scf:  10/100  step time:   1.07  scf time:    11.29 secs  RMS[dV]: 5.34e-06 ]
+ quench: [md:   8/100  scf:  11/100  step time:   0.87  scf time:    12.16 secs  RMS[dV]: 3.88e-06 ]
+ quench: [md:   8/100  scf:  12/100  step time:   0.87  scf time:    13.03 secs  RMS[dV]: 3.87e-06 ]
+ quench: [md:   8/100  scf:  13/100  step time:   0.87  scf time:    13.90 secs  RMS[dV]: 3.26e-06 ]
+ quench: [md:   8/100  scf:  14/100  step time:   0.89  scf time:    14.79 secs  RMS[dV]: 1.77e-06 ]
+ Convergence criterion reached: Energy variation (4.81e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -1.313566  1.106712  -0.990174 
+ 1.106712  -0.134723  0.428068 
+ -0.990174  0.428068  1.715233 
+
+     Energy error            =      1.0E-05 Ha
+     Gradient error          =      8.1E-04 Ha/Bohr
+     Cell gradient error     =      1.7E+00 kbar
+
+     number of scf cycles    =   9
+     number of bfgs steps    =   8
+
+     enthalpy           old  =     -28.3841572723 Ha
+     enthalpy           new  =     -28.3841677345 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0077390218 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.235
+  A0-A1 density:    14.525
+  A0-A2 density:    11.762
+  A1-A2 density:    11.762
+Planar Anisotropy is large: 1.234910
+ quench: [md:   9/100  scf:   0/100  step time:   0.90  scf time:     0.94 secs  RMS[dV]: ******** ]
+ quench: [md:   9/100  scf:   1/100  step time:   1.79  scf time:     2.74 secs  RMS[dV]: 2.04e-04 ]
+ quench: [md:   9/100  scf:   2/100  step time:   0.87  scf time:     3.61 secs  RMS[dV]: 7.99e-05 ]
+ quench: [md:   9/100  scf:   3/100  step time:   0.86  scf time:     4.47 secs  RMS[dV]: 5.93e-05 ]
+ quench: [md:   9/100  scf:   4/100  step time:   1.05  scf time:     5.53 secs  RMS[dV]: 2.75e-05 ]
+ quench: [md:   9/100  scf:   5/100  step time:   0.88  scf time:     6.41 secs  RMS[dV]: 2.01e-05 ]
+ quench: [md:   9/100  scf:   6/100  step time:   0.87  scf time:     7.28 secs  RMS[dV]: 1.30e-05 ]
+ quench: [md:   9/100  scf:   7/100  step time:   0.89  scf time:     8.16 secs  RMS[dV]: 7.57e-06 ]
+ quench: [md:   9/100  scf:   8/100  step time:   1.28  scf time:     9.45 secs  RMS[dV]: 2.65e-06 ]
+ quench: [md:   9/100  scf:   9/100  step time:   0.88  scf time:    10.32 secs  RMS[dV]: 3.51e-06 ]
+ quench: [md:   9/100  scf:  10/100  step time:   0.89  scf time:    11.22 secs  RMS[dV]: 2.34e-06 ]
+ Convergence criterion reached: Energy variation (9.79e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.068464  0.526725  -0.209709 
+ 0.526725  0.720946  0.145278 
+ -0.209709  0.145278  2.696906 
+
+     Energy error            =      1.3E-05 Ha
+     Gradient error          =      7.6E-04 Ha/Bohr
+     Cell gradient error     =      2.7E+00 kbar
+
+     number of scf cycles    =  10
+     number of bfgs steps    =   9
+
+     enthalpy           old  =     -28.3841677345 Ha
+     enthalpy           new  =     -28.3841803556 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0062084438 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.237
+  A0-A1 density:    14.559
+  A0-A2 density:    11.765
+  A1-A2 density:    11.765
+Planar Anisotropy is large: 1.237455
+ quench: [md:  10/100  scf:   0/100  step time:   0.91  scf time:     0.96 secs  RMS[dV]: ******** ]
+ quench: [md:  10/100  scf:   1/100  step time:   1.89  scf time:     2.84 secs  RMS[dV]: 1.42e-04 ]
+ quench: [md:  10/100  scf:   2/100  step time:   0.89  scf time:     3.73 secs  RMS[dV]: 8.20e-05 ]
+ quench: [md:  10/100  scf:   3/100  step time:   0.87  scf time:     4.60 secs  RMS[dV]: 5.84e-05 ]
+ quench: [md:  10/100  scf:   4/100  step time:   0.87  scf time:     5.47 secs  RMS[dV]: 3.07e-05 ]
+ quench: [md:  10/100  scf:   5/100  step time:   1.08  scf time:     6.55 secs  RMS[dV]: 1.64e-05 ]
+ quench: [md:  10/100  scf:   6/100  step time:   1.21  scf time:     7.76 secs  RMS[dV]: 9.08e-06 ]
+ quench: [md:  10/100  scf:   7/100  step time:   0.88  scf time:     8.64 secs  RMS[dV]: 1.05e-05 ]
+ quench: [md:  10/100  scf:   8/100  step time:   0.89  scf time:     9.53 secs  RMS[dV]: 3.86e-06 ]
+ quench: [md:  10/100  scf:   9/100  step time:   1.18  scf time:    10.70 secs  RMS[dV]: 1.36e-06 ]
+ Convergence criterion reached: Energy variation (1.81e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.592924  0.094840  0.315509 
+ 0.094840  0.828130  -0.058820 
+ 0.315509  -0.058820  2.479025 
+
+     Energy error            =      4.3E-06 Ha
+     Gradient error          =      5.5E-04 Ha/Bohr
+     Cell gradient error     =      2.5E+00 kbar
+
+     number of scf cycles    =  11
+     number of bfgs steps    =  10
+
+     enthalpy           old  =     -28.3841803556 Ha
+     enthalpy           new  =     -28.3841846235 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0084809325 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.241
+  A0-A1 density:    14.606
+  A0-A2 density:    11.767
+  A1-A2 density:    11.767
+Planar Anisotropy is large: 1.241253
+ quench: [md:  11/100  scf:   0/100  step time:   0.90  scf time:     0.94 secs  RMS[dV]: ******** ]
+ quench: [md:  11/100  scf:   1/100  step time:   1.90  scf time:     2.84 secs  RMS[dV]: 1.56e-04 ]
+ quench: [md:  11/100  scf:   2/100  step time:   0.87  scf time:     3.71 secs  RMS[dV]: 7.98e-05 ]
+ quench: [md:  11/100  scf:   3/100  step time:   0.86  scf time:     4.58 secs  RMS[dV]: 5.63e-05 ]
+ quench: [md:  11/100  scf:   4/100  step time:   0.86  scf time:     5.44 secs  RMS[dV]: 3.11e-05 ]
+ quench: [md:  11/100  scf:   5/100  step time:   1.05  scf time:     6.49 secs  RMS[dV]: 1.79e-05 ]
+ quench: [md:  11/100  scf:   6/100  step time:   1.06  scf time:     7.55 secs  RMS[dV]: 1.13e-05 ]
+ quench: [md:  11/100  scf:   7/100  step time:   0.88  scf time:     8.43 secs  RMS[dV]: 1.15e-05 ]
+ quench: [md:  11/100  scf:   8/100  step time:   1.04  scf time:     9.46 secs  RMS[dV]: 3.86e-06 ]
+ quench: [md:  11/100  scf:   9/100  step time:   0.96  scf time:    10.42 secs  RMS[dV]: 2.44e-06 ]
+ quench: [md:  11/100  scf:  10/100  step time:   0.97  scf time:    11.39 secs  RMS[dV]: 1.84e-06 ]
+ Convergence criterion reached: Energy variation (1.73e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.578113  -0.224610  0.625662 
+ -0.224610  0.476790  -0.192372 
+ 0.625662  -0.192372  1.304798 
+
+     Energy error            =      2.2E-06 Ha
+     Gradient error          =      4.9E-04 Ha/Bohr
+     Cell gradient error     =      1.3E+00 kbar
+
+     number of scf cycles    =  12
+     number of bfgs steps    =  11
+
+     enthalpy           old  =     -28.3841846235 Ha
+     enthalpy           new  =     -28.3841824368 Ha
+
+     CASE: enthalpy          _new > enthalpy          _old
+
+     new trust radius        =       0.0030329628 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.239
+  A0-A1 density:    14.578
+  A0-A2 density:    11.766
+  A1-A2 density:    11.766
+Planar Anisotropy is large: 1.238999
+ quench: [md:  12/100  scf:   0/100  step time:   1.16  scf time:     1.20 secs  RMS[dV]: ******** ]
+ quench: [md:  12/100  scf:   1/100  step time:   1.50  scf time:     2.70 secs  RMS[dV]: 2.28e-04 ]
+ quench: [md:  12/100  scf:   2/100  step time:   0.85  scf time:     3.55 secs  RMS[dV]: 2.37e-04 ]
+ quench: [md:  12/100  scf:   3/100  step time:   0.90  scf time:     4.45 secs  RMS[dV]: 1.70e-04 ]
+ quench: [md:  12/100  scf:   4/100  step time:   1.05  scf time:     5.50 secs  RMS[dV]: 6.91e-05 ]
+ quench: [md:  12/100  scf:   5/100  step time:   0.87  scf time:     6.37 secs  RMS[dV]: 5.93e-05 ]
+ quench: [md:  12/100  scf:   6/100  step time:   0.88  scf time:     7.24 secs  RMS[dV]: 4.06e-05 ]
+ quench: [md:  12/100  scf:   7/100  step time:   0.87  scf time:     8.11 secs  RMS[dV]: 2.47e-05 ]
+ quench: [md:  12/100  scf:   8/100  step time:   0.88  scf time:     8.99 secs  RMS[dV]: 2.21e-05 ]
+ quench: [md:  12/100  scf:   9/100  step time:   0.89  scf time:     9.88 secs  RMS[dV]: 1.29e-05 ]
+ quench: [md:  12/100  scf:  10/100  step time:   0.93  scf time:    10.82 secs  RMS[dV]: 8.98e-06 ]
+ Convergence criterion reached: Energy variation (4.91e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.573919  -0.033016  0.439597 
+ -0.033016  0.673594  -0.112111 
+ 0.439597  -0.112111  1.990978 
+
+     Energy error            =      7.8E-08 Ha
+     Gradient error          =      4.7E-04 Ha/Bohr
+     Cell gradient error     =      2.0E+00 kbar
+
+     number of scf cycles    =  13
+     number of bfgs steps    =  11
+
+     enthalpy           old  =     -28.3841846235 Ha
+     enthalpy           new  =     -28.3841845457 Ha
+
+     CASE: enthalpy          _new > enthalpy          _old
+
+     new trust radius        =       0.0014881587 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.238
+  A0-A1 density:    14.568
+  A0-A2 density:    11.766
+  A1-A2 density:    11.766
+Planar Anisotropy is large: 1.238211
+ quench: [md:  13/100  scf:   0/100  step time:   1.13  scf time:     1.17 secs  RMS[dV]: ******** ]
+ quench: [md:  13/100  scf:   1/100  step time:   1.55  scf time:     2.72 secs  RMS[dV]: 7.76e-05 ]
+ quench: [md:  13/100  scf:   2/100  step time:   0.85  scf time:     3.56 secs  RMS[dV]: 5.46e-05 ]
+ quench: [md:  13/100  scf:   3/100  step time:   0.93  scf time:     4.49 secs  RMS[dV]: 3.68e-05 ]
+ quench: [md:  13/100  scf:   4/100  step time:   1.05  scf time:     5.54 secs  RMS[dV]: 1.86e-05 ]
+ quench: [md:  13/100  scf:   5/100  step time:   0.85  scf time:     6.39 secs  RMS[dV]: 2.17e-05 ]
+ quench: [md:  13/100  scf:   6/100  step time:   0.85  scf time:     7.24 secs  RMS[dV]: 2.36e-05 ]
+ quench: [md:  13/100  scf:   7/100  step time:   0.85  scf time:     8.09 secs  RMS[dV]: 2.05e-05 ]
+ quench: [md:  13/100  scf:   8/100  step time:   0.85  scf time:     8.94 secs  RMS[dV]: 1.99e-05 ]
+ quench: [md:  13/100  scf:   9/100  step time:   0.86  scf time:     9.80 secs  RMS[dV]: 1.78e-05 ]
+ quench: [md:  13/100  scf:  10/100  step time:   0.87  scf time:    10.68 secs  RMS[dV]: 1.62e-05 ]
+ quench: [md:  13/100  scf:  11/100  step time:   0.88  scf time:    11.55 secs  RMS[dV]: 1.49e-05 ]
+ quench: [md:  13/100  scf:  12/100  step time:   0.87  scf time:    12.42 secs  RMS[dV]: 1.25e-05 ]
+ quench: [md:  13/100  scf:  13/100  step time:   0.87  scf time:    13.30 secs  RMS[dV]: 1.22e-05 ]
+ quench: [md:  13/100  scf:  14/100  step time:   0.95  scf time:    14.25 secs  RMS[dV]: 1.03e-05 ]
+ Convergence criterion reached: Energy variation (6.56e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.590183  0.019806  0.377816 
+ 0.019806  0.744061  -0.085952 
+ 0.377816  -0.085952  2.232100 
+
+     Energy error            =      1.1E-07 Ha
+     Gradient error          =      4.8E-04 Ha/Bohr
+     Cell gradient error     =      2.2E+00 kbar
+
+     number of scf cycles    =  14
+     number of bfgs steps    =  11
+
+     enthalpy           old  =     -28.3841846235 Ha
+     enthalpy           new  =     -28.3841845087 Ha
+
+     CASE: enthalpy          _new > enthalpy          _old
+
+     new trust radius        =       0.0007020266 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.238
+  A0-A1 density:    14.563
+  A0-A2 density:    11.765
+  A1-A2 density:    11.765
+Planar Anisotropy is large: 1.237811
+ quench: [md:  14/100  scf:   0/100  step time:   1.15  scf time:     1.19 secs  RMS[dV]: ******** ]
+ quench: [md:  14/100  scf:   1/100  step time:   1.65  scf time:     2.84 secs  RMS[dV]: 3.12e-05 ]
+ quench: [md:  14/100  scf:   2/100  step time:   0.86  scf time:     3.70 secs  RMS[dV]: 1.98e-05 ]
+ quench: [md:  14/100  scf:   3/100  step time:   1.00  scf time:     4.70 secs  RMS[dV]: 1.25e-05 ]
+ quench: [md:  14/100  scf:   4/100  step time:   1.02  scf time:     5.72 secs  RMS[dV]: 6.55e-06 ]
+ quench: [md:  14/100  scf:   5/100  step time:   0.87  scf time:     6.59 secs  RMS[dV]: 7.55e-06 ]
+ quench: [md:  14/100  scf:   6/100  step time:   0.88  scf time:     7.47 secs  RMS[dV]: 7.53e-06 ]
+ quench: [md:  14/100  scf:   7/100  step time:   0.88  scf time:     8.34 secs  RMS[dV]: 4.95e-06 ]
+ quench: [md:  14/100  scf:   8/100  step time:   0.88  scf time:     9.22 secs  RMS[dV]: 3.56e-06 ]
+ quench: [md:  14/100  scf:   9/100  step time:   0.88  scf time:    10.10 secs  RMS[dV]: 2.46e-06 ]
+ quench: [md:  14/100  scf:  10/100  step time:   0.88  scf time:    10.98 secs  RMS[dV]: 2.50e-06 ]
+ quench: [md:  14/100  scf:  11/100  step time:   1.04  scf time:    12.02 secs  RMS[dV]: 1.67e-06 ]
+ Convergence criterion reached: Energy variation (1.99e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.575093  0.072524  0.344172 
+ 0.072524  0.787155  -0.071009 
+ 0.344172  -0.071009  2.363687 
+
+     Energy error            =      5.4E-08 Ha
+     Gradient error          =      5.1E-04 Ha/Bohr
+     Cell gradient error     =      2.4E+00 kbar
+
+     number of scf cycles    =  15
+     number of bfgs steps    =  11
+
+     enthalpy           old  =     -28.3841846235 Ha
+     enthalpy           new  =     -28.3841846773 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0010532182 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.238
+  A0-A1 density:    14.569
+  A0-A2 density:    11.766
+  A1-A2 density:    11.766
+Planar Anisotropy is large: 1.238285
+ quench: [md:  15/100  scf:   0/100  step time:   1.16  scf time:     1.20 secs  RMS[dV]: ******** ]
+ quench: [md:  15/100  scf:   1/100  step time:   1.65  scf time:     2.85 secs  RMS[dV]: 3.21e-05 ]
+ quench: [md:  15/100  scf:   2/100  step time:   0.86  scf time:     3.72 secs  RMS[dV]: 3.28e-05 ]
+ quench: [md:  15/100  scf:   3/100  step time:   0.87  scf time:     4.58 secs  RMS[dV]: 2.35e-05 ]
+ quench: [md:  15/100  scf:   4/100  step time:   1.00  scf time:     5.59 secs  RMS[dV]: 1.11e-05 ]
+ quench: [md:  15/100  scf:   5/100  step time:   0.87  scf time:     6.45 secs  RMS[dV]: 7.57e-06 ]
+ quench: [md:  15/100  scf:   6/100  step time:   0.87  scf time:     7.32 secs  RMS[dV]: 3.70e-06 ]
+ quench: [md:  15/100  scf:   7/100  step time:   0.94  scf time:     8.26 secs  RMS[dV]: 2.57e-06 ]
+ Convergence criterion reached: Energy variation (3.45e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.562796  0.042417  0.357533 
+ 0.042417  0.738396  -0.079720 
+ 0.357533  -0.079720  2.199878 
+
+     Energy error            =      6.8E-07 Ha
+     Gradient error          =      4.6E-04 Ha/Bohr
+     Cell gradient error     =      2.2E+00 kbar
+
+     number of scf cycles    =  16
+     number of bfgs steps    =  12
+
+     enthalpy           old  =     -28.3841846773 Ha
+     enthalpy           new  =     -28.3841840014 Ha
+
+     CASE: enthalpy          _new > enthalpy          _old
+
+     new trust radius        =       0.0002912156 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.238
+  A0-A1 density:    14.565
+  A0-A2 density:    11.766
+  A1-A2 density:    11.766
+Planar Anisotropy is large: 1.237962
+ quench: [md:  16/100  scf:   0/100  step time:   0.90  scf time:     0.94 secs  RMS[dV]: ******** ]
+ quench: [md:  16/100  scf:   1/100  step time:   1.57  scf time:     2.51 secs  RMS[dV]: 2.84e-05 ]
+ quench: [md:  16/100  scf:   2/100  step time:   0.88  scf time:     3.39 secs  RMS[dV]: 2.91e-05 ]
+ quench: [md:  16/100  scf:   3/100  step time:   0.87  scf time:     4.26 secs  RMS[dV]: 2.06e-05 ]
+ quench: [md:  16/100  scf:   4/100  step time:   0.94  scf time:     5.20 secs  RMS[dV]: 1.05e-05 ]
+ quench: [md:  16/100  scf:   5/100  step time:   0.87  scf time:     6.07 secs  RMS[dV]: 6.74e-06 ]
+ quench: [md:  16/100  scf:   6/100  step time:   0.98  scf time:     7.05 secs  RMS[dV]: 3.16e-06 ]
+ quench: [md:  16/100  scf:   7/100  step time:   1.01  scf time:     8.07 secs  RMS[dV]: 2.23e-06 ]
+ Convergence criterion reached: Energy variation (3.67e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.574637  0.058541  0.348566 
+ 0.058541  0.769774  -0.074035 
+ 0.348566  -0.074035  2.312285 
+
+     Energy error            =      8.6E-07 Ha
+     Gradient error          =      5.1E-04 Ha/Bohr
+     Cell gradient error     =      2.3E+00 kbar
+
+     number of scf cycles    =  17
+     number of bfgs steps    =  12
+
+     enthalpy           old  =     -28.3841846773 Ha
+     enthalpy           new  =     -28.3841855373 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0004367962 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.238
+  A0-A1 density:    14.568
+  A0-A2 density:    11.766
+  A1-A2 density:    11.766
+Planar Anisotropy is large: 1.238139
+ quench: [md:  17/100  scf:   0/100  step time:   1.18  scf time:     1.22 secs  RMS[dV]: ******** ]
+ quench: [md:  17/100  scf:   1/100  step time:   1.57  scf time:     2.79 secs  RMS[dV]: 1.57e-05 ]
+ quench: [md:  17/100  scf:   2/100  step time:   0.87  scf time:     3.66 secs  RMS[dV]: 1.67e-05 ]
+ quench: [md:  17/100  scf:   3/100  step time:   0.87  scf time:     4.52 secs  RMS[dV]: 1.18e-05 ]
+ quench: [md:  17/100  scf:   4/100  step time:   1.06  scf time:     5.58 secs  RMS[dV]: 4.91e-06 ]
+ quench: [md:  17/100  scf:   5/100  step time:   0.87  scf time:     6.45 secs  RMS[dV]: 3.36e-06 ]
+ quench: [md:  17/100  scf:   6/100  step time:   0.88  scf time:     7.33 secs  RMS[dV]: 1.74e-06 ]
+ Convergence criterion reached: Energy variation (9.95e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.581668  0.056791  0.351098 
+ 0.056791  0.774322  -0.075941 
+ 0.351098  -0.075941  2.278236 
+
+     Energy error            =      1.5E-06 Ha
+     Gradient error          =      4.9E-04 Ha/Bohr
+     Cell gradient error     =      2.3E+00 kbar
+
+     number of scf cycles    =  18
+     number of bfgs steps    =  13
+
+     enthalpy           old  =     -28.3841855373 Ha
+     enthalpy           new  =     -28.3841840147 Ha
+
+     CASE: enthalpy          _new > enthalpy          _old
+
+     new trust radius        =       0.0000378014 bohr
+
+     trust_radius < trust_radius_min
+
+     resetting bfgs history
+
+
+Coordinate planes
+  Planar Anisotropy: 1.238
+  A0-A1 density:    14.562
+  A0-A2 density:    11.760
+  A1-A2 density:    11.760
+Planar Anisotropy is large: 1.238321
+ quench: [md:  18/100  scf:   0/100  step time:   0.98  scf time:     1.02 secs  RMS[dV]: ******** ]
+ quench: [md:  18/100  scf:   1/100  step time:   1.60  scf time:     2.62 secs  RMS[dV]: 7.47e-05 ]
+ quench: [md:  18/100  scf:   2/100  step time:   0.86  scf time:     3.48 secs  RMS[dV]: 4.47e-05 ]
+ quench: [md:  18/100  scf:   3/100  step time:   0.86  scf time:     4.35 secs  RMS[dV]: 3.04e-05 ]
+ quench: [md:  18/100  scf:   4/100  step time:   0.86  scf time:     5.21 secs  RMS[dV]: 1.60e-05 ]
+ quench: [md:  18/100  scf:   5/100  step time:   1.11  scf time:     6.32 secs  RMS[dV]: 9.03e-06 ]
+ quench: [md:  18/100  scf:   6/100  step time:   0.92  scf time:     7.24 secs  RMS[dV]: 5.82e-06 ]
+ quench: [md:  18/100  scf:   7/100  step time:   0.87  scf time:     8.11 secs  RMS[dV]: 5.27e-06 ]
+ quench: [md:  18/100  scf:   8/100  step time:   1.39  scf time:     9.50 secs  RMS[dV]: 1.97e-06 ]
+ Convergence criterion reached: Energy variation (6.87e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 0.058900  0.085585  0.241897 
+ 0.085585  0.255321  -0.044695 
+ 0.241897  -0.044695  1.440040 
+
+     Energy error            =      5.6E-07 Ha
+     Gradient error          =      3.5E-04 Ha/Bohr
+     Cell gradient error     =      1.4E+00 kbar
+
+     number of scf cycles    =  19
+     number of bfgs steps    =  13
+
+     enthalpy           old  =     -28.3841855373 Ha
+     enthalpy           new  =     -28.3841860945 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0019715756 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.239
+  A0-A1 density:    14.561
+  A0-A2 density:    11.754
+  A1-A2 density:    11.754
+Planar Anisotropy is large: 1.238807
+ quench: [md:  19/100  scf:   0/100  step time:   0.91  scf time:     0.95 secs  RMS[dV]: ******** ]
+ quench: [md:  19/100  scf:   1/100  step time:   2.27  scf time:     3.22 secs  RMS[dV]: 5.39e-05 ]
+ quench: [md:  19/100  scf:   2/100  step time:   0.87  scf time:     4.09 secs  RMS[dV]: 1.73e-05 ]
+ quench: [md:  19/100  scf:   3/100  step time:   0.86  scf time:     4.95 secs  RMS[dV]: 1.17e-05 ]
+ quench: [md:  19/100  scf:   4/100  step time:   0.87  scf time:     5.83 secs  RMS[dV]: 7.02e-06 ]
+ quench: [md:  19/100  scf:   5/100  step time:   1.02  scf time:     6.84 secs  RMS[dV]: 3.86e-06 ]
+ quench: [md:  19/100  scf:   6/100  step time:   1.23  scf time:     8.07 secs  RMS[dV]: 3.21e-06 ]
+ quench: [md:  19/100  scf:   7/100  step time:   1.04  scf time:     9.11 secs  RMS[dV]: 4.51e-06 ]
+ quench: [md:  19/100  scf:   8/100  step time:   0.87  scf time:     9.98 secs  RMS[dV]: 9.01e-06 ]
+ quench: [md:  19/100  scf:   9/100  step time:   0.87  scf time:    10.85 secs  RMS[dV]: 4.87e-06 ]
+ quench: [md:  19/100  scf:  10/100  step time:   0.86  scf time:    11.71 secs  RMS[dV]: 5.15e-06 ]
+ quench: [md:  19/100  scf:  11/100  step time:   0.88  scf time:    12.59 secs  RMS[dV]: 8.31e-06 ]
+ quench: [md:  19/100  scf:  12/100  step time:   0.87  scf time:    13.47 secs  RMS[dV]: 1.17e-05 ]
+ quench: [md:  19/100  scf:  13/100  step time:   0.88  scf time:    14.34 secs  RMS[dV]: 8.91e-06 ]
+ quench: [md:  19/100  scf:  14/100  step time:   0.88  scf time:    15.22 secs  RMS[dV]: 8.18e-06 ]
+ quench: [md:  19/100  scf:  15/100  step time:   1.06  scf time:    16.28 secs  RMS[dV]: 6.52e-06 ]
+ quench: [md:  19/100  scf:  16/100  step time:   0.87  scf time:    17.15 secs  RMS[dV]: 5.92e-06 ]
+ quench: [md:  19/100  scf:  17/100  step time:   0.87  scf time:    18.03 secs  RMS[dV]: 6.62e-06 ]
+ quench: [md:  19/100  scf:  18/100  step time:   0.96  scf time:    18.99 secs  RMS[dV]: 3.09e-06 ]
+ quench: [md:  19/100  scf:  19/100  step time:   0.96  scf time:    19.94 secs  RMS[dV]: 4.77e-06 ]
+ quench: [md:  19/100  scf:  20/100  step time:   0.87  scf time:    20.81 secs  RMS[dV]: 5.74e-06 ]
+ quench: [md:  19/100  scf:  21/100  step time:   0.88  scf time:    21.69 secs  RMS[dV]: 3.21e-06 ]
+ Convergence criterion reached: Energy variation (8.98e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -0.421361  0.112657  0.106148 
+ 0.112657  -0.235111  -0.008041 
+ 0.106148  -0.008041  0.591188 
+
+     Energy error            =      9.8E-08 Ha
+     Gradient error          =      2.1E-04 Ha/Bohr
+     Cell gradient error     =      5.9E-01 kbar
+
+     number of scf cycles    =  20
+     number of bfgs steps    =  14
+
+     enthalpy           old  =     -28.3841860945 Ha
+     enthalpy           new  =     -28.3841859969 Ha
+
+     CASE: enthalpy          _new > enthalpy          _old
+
+     new trust radius        =       0.0009496898 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.239
+  A0-A1 density:    14.562
+  A0-A2 density:    11.757
+  A1-A2 density:    11.757
+Planar Anisotropy is large: 1.238555
+ quench: [md:  20/100  scf:   0/100  step time:   0.89  scf time:     0.93 secs  RMS[dV]: ******** ]
+ quench: [md:  20/100  scf:   1/100  step time:   1.32  scf time:     2.24 secs  RMS[dV]: 1.30e-04 ]
+ quench: [md:  20/100  scf:   2/100  step time:   0.87  scf time:     3.12 secs  RMS[dV]: 9.43e-05 ]
+ quench: [md:  20/100  scf:   3/100  step time:   0.87  scf time:     3.98 secs  RMS[dV]: 5.08e-05 ]
+ quench: [md:  20/100  scf:   4/100  step time:   0.87  scf time:     4.85 secs  RMS[dV]: 3.17e-05 ]
+ quench: [md:  20/100  scf:   5/100  step time:   1.25  scf time:     6.10 secs  RMS[dV]: 1.63e-05 ]
+ quench: [md:  20/100  scf:   6/100  step time:   1.07  scf time:     7.18 secs  RMS[dV]: 1.49e-05 ]
+ quench: [md:  20/100  scf:   7/100  step time:   0.94  scf time:     8.12 secs  RMS[dV]: 1.23e-05 ]
+ quench: [md:  20/100  scf:   8/100  step time:   0.88  scf time:     9.00 secs  RMS[dV]: 5.11e-06 ]
+ quench: [md:  20/100  scf:   9/100  step time:   1.02  scf time:    10.02 secs  RMS[dV]: 5.00e-06 ]
+ quench: [md:  20/100  scf:  10/100  step time:   1.08  scf time:    11.10 secs  RMS[dV]: 5.28e-06 ]
+ quench: [md:  20/100  scf:  11/100  step time:   0.88  scf time:    11.99 secs  RMS[dV]: 4.41e-06 ]
+ quench: [md:  20/100  scf:  12/100  step time:   0.87  scf time:    12.85 secs  RMS[dV]: 3.35e-06 ]
+ quench: [md:  20/100  scf:  13/100  step time:   0.98  scf time:    13.83 secs  RMS[dV]: 2.17e-06 ]
+ Convergence criterion reached: Energy variation (4.72e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -0.184342  0.099466  0.174657 
+ 0.099466  0.007313  -0.026214 
+ 0.174657  -0.026214  1.022232 
+
+     Energy error            =      3.7E-06 Ha
+     Gradient error          =      2.9E-04 Ha/Bohr
+     Cell gradient error     =      1.0E+00 kbar
+
+     number of scf cycles    =  21
+     number of bfgs steps    =  14
+
+     enthalpy           old  =     -28.3841860945 Ha
+     enthalpy           new  =     -28.3841897993 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0014246648 bohr
+
+Coordinate planes
+  Planar Anisotropy: 1.239
+  A0-A1 density:    14.563
+  A0-A2 density:    11.754
+  A1-A2 density:    11.754
+Planar Anisotropy is large: 1.238978
+ quench: [md:  21/100  scf:   0/100  step time:   0.90  scf time:     0.94 secs  RMS[dV]: ******** ]
+ quench: [md:  21/100  scf:   1/100  step time:   1.40  scf time:     2.34 secs  RMS[dV]: 1.22e-04 ]
+ quench: [md:  21/100  scf:   2/100  step time:   0.88  scf time:     3.22 secs  RMS[dV]: 8.28e-05 ]
+ quench: [md:  21/100  scf:   3/100  step time:   0.86  scf time:     4.08 secs  RMS[dV]: 5.11e-05 ]
+ quench: [md:  21/100  scf:   4/100  step time:   0.87  scf time:     4.95 secs  RMS[dV]: 2.64e-05 ]
+ quench: [md:  21/100  scf:   5/100  step time:   1.06  scf time:     6.01 secs  RMS[dV]: 1.93e-05 ]
+ quench: [md:  21/100  scf:   6/100  step time:   0.95  scf time:     6.95 secs  RMS[dV]: 1.25e-05 ]
+ quench: [md:  21/100  scf:   7/100  step time:   0.87  scf time:     7.82 secs  RMS[dV]: 9.21e-06 ]
+ quench: [md:  21/100  scf:   8/100  step time:   0.88  scf time:     8.70 secs  RMS[dV]: 4.61e-06 ]
+ quench: [md:  21/100  scf:   9/100  step time:   1.18  scf time:     9.89 secs  RMS[dV]: 2.63e-06 ]
+ quench: [md:  21/100  scf:  10/100  step time:   1.03  scf time:    10.92 secs  RMS[dV]: 2.82e-06 ]
+ quench: [md:  21/100  scf:  11/100  step time:   1.03  scf time:    11.95 secs  RMS[dV]: 3.38e-06 ]
+ quench: [md:  21/100  scf:  12/100  step time:   0.88  scf time:    12.83 secs  RMS[dV]: 2.72e-06 ]
+ quench: [md:  21/100  scf:  13/100  step time:   0.89  scf time:    13.72 secs  RMS[dV]: 2.24e-06 ]
+ Convergence criterion reached: Energy variation (7.51e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -0.451724  0.108772  0.073442 
+ 0.108772  -0.280129  0.000530 
+ 0.073442  0.000530  0.489498 

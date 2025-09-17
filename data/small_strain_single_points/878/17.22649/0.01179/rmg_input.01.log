@@ -1,0 +1,12 @@
+RMG initialization ... 1 image(s) total, 1 per node. 1008 MPI processes/image. 
+HIP version 60241134 detected.
+
+device 0: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+device 1: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+device 2: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+device 3: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+device 4: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+device 5: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+device 6: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+device 7: AMD Instinct MI250X, 1700.0 MHz clock, 65520.0 MB memory
+Thread level 2.

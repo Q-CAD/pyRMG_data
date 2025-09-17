@@ -1,0 +1,97 @@
+flux-shell[118]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[0]:  WARN: exception: node failure on frontier08663 (shell rank 79)
+flux-shell[0]:  WARN: exception: node failure on frontier08777 (shell rank 89)
+flux-shell[0]:  WARN: exception: node failure on frontier08924 (shell rank 107)
+flux-shell[0]:  WARN: exception: node failure on frontier08665 (shell rank 80)
+flux-shell[0]:  WARN: exception: node failure on frontier08778 (shell rank 90)
+flux-shell[0]:  WARN: exception: node failure on frontier08943 (shell rank 108)
+flux-shell[0]:  WARN: exception: node failure on frontier08688 (shell rank 85)
+flux-shell[0]:  WARN: exception: node failure on frontier08756 (shell rank 87)
+flux-shell[0]:  WARN: exception: node failure on frontier08799 (shell rank 97)
+flux-shell[0]:  WARN: exception: node failure on frontier08691 (shell rank 86)
+flux-shell[0]:  WARN: exception: node failure on frontier08757 (shell rank 88)
+flux-shell[0]:  WARN: exception: node failure on frontier08800 (shell rank 98)
+flux-shell[0]:  WARN: exception: node failure on frontier08672 (shell rank 83)
+flux-shell[0]:  WARN: exception: node failure on frontier08793 (shell rank 93)
+flux-shell[0]:  WARN: exception: node failure on frontier08797 (shell rank 95)
+flux-shell[0]:  WARN: exception: node failure on frontier08920 (shell rank 105)
+flux-shell[0]:  WARN: exception: node failure on frontier08673 (shell rank 84)
+flux-shell[0]:  WARN: exception: node failure on frontier08796 (shell rank 94)
+flux-shell[0]:  WARN: exception: node failure on frontier08798 (shell rank 96)
+flux-shell[0]:  WARN: exception: node failure on frontier08922 (shell rank 106)
+flux-shell[0]:  WARN: exception: node failure on frontier08790 (shell rank 91)
+flux-shell[0]:  WARN: exception: node failure on frontier08819 (shell rank 101)
+flux-shell[0]:  WARN: exception: node failure on frontier08917 (shell rank 103)
+flux-shell[0]:  WARN: exception: node failure on frontier08791 (shell rank 92)
+flux-shell[0]:  WARN: exception: node failure on frontier08916 (shell rank 102)
+flux-shell[0]:  WARN: exception: node failure on frontier08919 (shell rank 104)
+flux-shell[0]:  WARN: exception: node failure on frontier08667 (shell rank 81)
+flux-shell[0]:  WARN: exception: node failure on frontier08814 (shell rank 99)
+flux-shell[0]:  WARN: exception: node failure on frontier08945 (shell rank 109)
+flux-shell[0]:  WARN: exception: node failure on frontier08670 (shell rank 82)
+flux-shell[0]:  WARN: exception: node failure on frontier08817 (shell rank 100)
+flux-shell[0]:  WARN: exception: node failure on frontier08946 (shell rank 110)
+flux-shell[72]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[71]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[2]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[70]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[48]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[161]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[115]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[51]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[58]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[163]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[147]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[162]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[113]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[165]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[127]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[155]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[132]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[142]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[129]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[114]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[145]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[126]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[8]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[9]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[123]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[10]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[151]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[133]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[122]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[160]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[138]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[137]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[144]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[111]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[124]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[131]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[156]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[3]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[141]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[143]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[150]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[125]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[120]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[148]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[13]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[11]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[6]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[4]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[1]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[157]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[117]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[139]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[164]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[128]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[130]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[166]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[167]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[134]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[5]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[121]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[136]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[140]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[112]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[0]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented

@@ -1,0 +1,18 @@
+flux-shell[0]:  WARN: exception: node failure on frontier07135 (shell rank 59)
+flux-shell[0]:  WARN: exception: node failure on frontier07027 (shell rank 48)
+flux-shell[0]:  WARN: exception: node failure on frontier07258 (shell rank 72)
+flux-shell[0]:  WARN: exception: node failure on frontier07281 (shell rank 78)
+flux-shell[101]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[135]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[68]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[75]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[149]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[133]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[109]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[67]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[94]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[140]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[10]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[144]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[136]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented
+flux-shell[0]: FATAL: input.kvs: flux_job_event_watch_get: Function not implemented

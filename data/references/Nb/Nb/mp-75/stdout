@@ -1,0 +1,151 @@
+Detected ibrav 1 from lattice vectors.
+You have selected Pulay or Broyden mixing so potential acceleration is disabled.
+Auto processor grid settings: npes=2 PE_X=2 PE_Y=1 PE_Z=1
+Too many eigenvalue multigrid levels specified. Resetting to 1
+RMG running with 2 MPI procs per host.
+Running with 7 Open MP threads.
+Running with 5 RMG threads.
+
+               * * * * * * * * * *
+               *    R   M   G    *
+               * * * * * * * * * *
+
+ -- A Real Space Multigrid Electronic structure code --
+ --      More information at www.rmgdft.org          --
+
+
+
+NOTICE: RMG internal pseudopotentials have switched to
+ONCVP from Ultrasoft. You can revert to Ultrasoft by
+adding the input tag internal_pseudo_type="ultrasoft" to
+your input files.
+
+
+ quench: [md:   0/100  scf:   0/100  step time:   0.87  scf time:     0.90 secs  RMS[dV]: ******** ]
+ quench: [md:   0/100  scf:   1/100  step time:   0.14  scf time:     1.04 secs  RMS[dV]: 3.38e-02 ]
+ quench: [md:   0/100  scf:   2/100  step time:   0.23  scf time:     1.27 secs  RMS[dV]: 1.72e-02 ]
+ quench: [md:   0/100  scf:   3/100  step time:   0.18  scf time:     1.45 secs  RMS[dV]: 1.04e-02 ]
+ quench: [md:   0/100  scf:   4/100  step time:   0.22  scf time:     1.68 secs  RMS[dV]: 2.58e-02 ]
+ quench: [md:   0/100  scf:   5/100  step time:   0.17  scf time:     1.85 secs  RMS[dV]: 2.36e-02 ]
+ quench: [md:   0/100  scf:   6/100  step time:   0.32  scf time:     2.17 secs  RMS[dV]: 1.48e-03 ]
+ quench: [md:   0/100  scf:   7/100  step time:   0.21  scf time:     2.38 secs  RMS[dV]: 5.08e-04 ]
+ quench: [md:   0/100  scf:   8/100  step time:   0.13  scf time:     2.52 secs  RMS[dV]: 7.05e-04 ]
+ quench: [md:   0/100  scf:   9/100  step time:   0.14  scf time:     2.65 secs  RMS[dV]: 4.61e-04 ]
+ quench: [md:   0/100  scf:  10/100  step time:   0.21  scf time:     2.86 secs  RMS[dV]: 1.78e-04 ]
+ quench: [md:   0/100  scf:  11/100  step time:   0.14  scf time:     3.00 secs  RMS[dV]: 2.76e-04 ]
+ quench: [md:   0/100  scf:  12/100  step time:   0.18  scf time:     3.18 secs  RMS[dV]: 1.38e-04 ]
+ quench: [md:   0/100  scf:  13/100  step time:   0.17  scf time:     3.36 secs  RMS[dV]: 1.08e-04 ]
+ quench: [md:   0/100  scf:  14/100  step time:   0.18  scf time:     3.53 secs  RMS[dV]: 9.84e-05 ]
+ quench: [md:   0/100  scf:  15/100  step time:   0.14  scf time:     3.67 secs  RMS[dV]: 1.31e-04 ]
+ quench: [md:   0/100  scf:  16/100  step time:   0.17  scf time:     3.84 secs  RMS[dV]: 8.94e-05 ]
+ quench: [md:   0/100  scf:  17/100  step time:   0.19  scf time:     4.03 secs  RMS[dV]: 3.93e-05 ]
+ quench: [md:   0/100  scf:  18/100  step time:   0.28  scf time:     4.31 secs  RMS[dV]: 1.28e-05 ]
+ quench: [md:   0/100  scf:  19/100  step time:   0.14  scf time:     4.44 secs  RMS[dV]: 1.77e-05 ]
+ quench: [md:   0/100  scf:  20/100  step time:   0.16  scf time:     4.60 secs  RMS[dV]: 1.23e-05 ]
+ quench: [md:   0/100  scf:  21/100  step time:   0.15  scf time:     4.75 secs  RMS[dV]: 5.13e-06 ]
+ quench: [md:   0/100  scf:  22/100  step time:   0.19  scf time:     4.95 secs  RMS[dV]: 3.03e-06 ]
+ Convergence criterion reached: Energy variation (6.04e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -89.752431  0.000000  0.000000 
+ -0.000000  -89.752431  0.000000 
+ 0.000000  0.000000  -89.752431 
+
+     BFGS Geometry Optimization
+
+     Energy error            =      0.0E+00 Ha
+     Gradient error          =      0.0E+00 Ha/Bohr
+     Cell gradient error     =      9.0E+01 kbar
+
+     number of scf cycles    =   1
+     number of bfgs steps    =   0
+
+     enthalpy           new  =    -114.1808996586 Ha
+
+     new trust radius        =       0.0478882899 bohr
+
+ quench: [md:   1/100  scf:   0/100  step time:   0.24  scf time:     0.28 secs  RMS[dV]: ******** ]
+ quench: [md:   1/100  scf:   1/100  step time:   0.40  scf time:     0.68 secs  RMS[dV]: 3.48e-04 ]
+ quench: [md:   1/100  scf:   2/100  step time:   0.14  scf time:     0.82 secs  RMS[dV]: 7.74e-04 ]
+ quench: [md:   1/100  scf:   3/100  step time:   0.17  scf time:     0.99 secs  RMS[dV]: 4.48e-04 ]
+ quench: [md:   1/100  scf:   4/100  step time:   0.20  scf time:     1.19 secs  RMS[dV]: 5.83e-05 ]
+ quench: [md:   1/100  scf:   5/100  step time:   0.21  scf time:     1.40 secs  RMS[dV]: 5.51e-05 ]
+ quench: [md:   1/100  scf:   6/100  step time:   0.15  scf time:     1.55 secs  RMS[dV]: 8.65e-05 ]
+ quench: [md:   1/100  scf:   7/100  step time:   0.29  scf time:     1.84 secs  RMS[dV]: 9.67e-06 ]
+ quench: [md:   1/100  scf:   8/100  step time:   0.13  scf time:     1.97 secs  RMS[dV]: 2.24e-05 ]
+ quench: [md:   1/100  scf:   9/100  step time:   0.14  scf time:     2.11 secs  RMS[dV]: 1.37e-05 ]
+ quench: [md:   1/100  scf:  10/100  step time:   0.20  scf time:     2.31 secs  RMS[dV]: 5.49e-06 ]
+ quench: [md:   1/100  scf:  11/100  step time:   0.18  scf time:     2.50 secs  RMS[dV]: 2.10e-06 ]
+ Convergence criterion reached: Energy variation (1.42e-11) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -13.738693  -0.000000  0.000000 
+ 0.000000  -13.738693  -0.000000 
+ -0.000000  0.000000  -13.738693 
+
+     Energy error            =      2.2E-03 Ha
+     Gradient error          =      0.0E+00 Ha/Bohr
+     Cell gradient error     =      1.4E+01 kbar
+
+     number of scf cycles    =   2
+     number of bfgs steps    =   1
+
+     enthalpy           old  =    -114.1808996586 Ha
+     enthalpy           new  =    -114.1830987042 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0082837000 bohr
+
+ quench: [md:   2/100  scf:   0/100  step time:   0.17  scf time:     0.21 secs  RMS[dV]: ******** ]
+ quench: [md:   2/100  scf:   1/100  step time:   0.26  scf time:     0.46 secs  RMS[dV]: 1.09e-03 ]
+ quench: [md:   2/100  scf:   2/100  step time:   0.13  scf time:     0.60 secs  RMS[dV]: 5.18e-04 ]
+ quench: [md:   2/100  scf:   3/100  step time:   0.20  scf time:     0.79 secs  RMS[dV]: 2.25e-04 ]
+ quench: [md:   2/100  scf:   4/100  step time:   0.13  scf time:     0.93 secs  RMS[dV]: 2.53e-04 ]
+ quench: [md:   2/100  scf:   5/100  step time:   0.13  scf time:     1.06 secs  RMS[dV]: 2.23e-04 ]
+ quench: [md:   2/100  scf:   6/100  step time:   0.13  scf time:     1.19 secs  RMS[dV]: 1.87e-04 ]
+ quench: [md:   2/100  scf:   7/100  step time:   0.17  scf time:     1.36 secs  RMS[dV]: 8.41e-05 ]
+ quench: [md:   2/100  scf:   8/100  step time:   0.17  scf time:     1.53 secs  RMS[dV]: 3.72e-05 ]
+ quench: [md:   2/100  scf:   9/100  step time:   0.19  scf time:     1.72 secs  RMS[dV]: 1.45e-05 ]
+ quench: [md:   2/100  scf:  10/100  step time:   0.17  scf time:     1.89 secs  RMS[dV]: 6.73e-06 ]
+ quench: [md:   2/100  scf:  11/100  step time:   0.20  scf time:     2.09 secs  RMS[dV]: 3.48e-06 ]
+ Convergence criterion reached: Energy variation (6.18e-12) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ 1.563177  0.000000  0.000000 
+ 0.000000  1.563177  0.000000 
+ 0.000000  0.000000  1.563177 
+
+     Energy error            =      4.8E-05 Ha
+     Gradient error          =      0.0E+00 Ha/Bohr
+     Cell gradient error     =      1.6E+00 kbar
+
+     number of scf cycles    =   3
+     number of bfgs steps    =   2
+
+     enthalpy           old  =    -114.1830987042 Ha
+     enthalpy           new  =    -114.1831471283 Ha
+
+     CASE: enthalpy          _new < enthalpy          _old
+
+     new trust radius        =       0.0008409919 bohr
+
+ quench: [md:   3/100  scf:   0/100  step time:   0.16  scf time:     0.20 secs  RMS[dV]: ******** ]
+ quench: [md:   3/100  scf:   1/100  step time:   0.27  scf time:     0.47 secs  RMS[dV]: 9.88e-05 ]
+ quench: [md:   3/100  scf:   2/100  step time:   0.13  scf time:     0.60 secs  RMS[dV]: 1.71e-04 ]
+ quench: [md:   3/100  scf:   3/100  step time:   0.17  scf time:     0.77 secs  RMS[dV]: 7.98e-05 ]
+ quench: [md:   3/100  scf:   4/100  step time:   0.15  scf time:     0.92 secs  RMS[dV]: 9.55e-05 ]
+ quench: [md:   3/100  scf:   5/100  step time:   0.13  scf time:     1.05 secs  RMS[dV]: 1.22e-04 ]
+ quench: [md:   3/100  scf:   6/100  step time:   0.15  scf time:     1.21 secs  RMS[dV]: 7.66e-05 ]
+ quench: [md:   3/100  scf:   7/100  step time:   0.27  scf time:     1.48 secs  RMS[dV]: 1.24e-05 ]
+ quench: [md:   3/100  scf:   8/100  step time:   0.20  scf time:     1.67 secs  RMS[dV]: 4.07e-06 ]
+ quench: [md:   3/100  scf:   9/100  step time:   0.23  scf time:     1.91 secs  RMS[dV]: 2.95e-06 ]
+ quench: [md:   3/100  scf:  10/100  step time:   0.14  scf time:     2.04 secs  RMS[dV]: 1.05e-05 ]
+ quench: [md:   3/100  scf:  11/100  step time:   0.14  scf time:     2.18 secs  RMS[dV]: 1.06e-05 ]
+ quench: [md:   3/100  scf:  12/100  step time:   0.13  scf time:     2.31 secs  RMS[dV]: 8.58e-06 ]
+ quench: [md:   3/100  scf:  13/100  step time:   0.13  scf time:     2.45 secs  RMS[dV]: 6.30e-06 ]
+ quench: [md:   3/100  scf:  14/100  step time:   0.20  scf time:     2.64 secs  RMS[dV]: 4.15e-06 ]
+ quench: [md:   3/100  scf:  15/100  step time:   0.14  scf time:     2.78 secs  RMS[dV]: 6.26e-06 ]
+ quench: [md:   3/100  scf:  16/100  step time:   0.16  scf time:     2.94 secs  RMS[dV]: 4.23e-06 ]
+ Convergence criterion reached: Energy variation (5.97e-12) is lower than threshold (1.00e-10)
+ stress  total  in unit of kbar
+ -0.019304  0.000000  -0.000000 
+ -0.000000  -0.019304  0.000000 
+ 0.000000  -0.000000  -0.019304 

@@ -1,0 +1,9 @@
+{'film_sl_vectors': array([[-29.19579487,   7.22408573,   0.        ],
+       [-20.85413919, -21.67225718,  -0.        ]]), 'substrate_sl_vectors': array([[  0.        ,  29.99540285,   0.        ],
+       [-25.97678086,  14.99770142,   0.        ]]), 'film_vectors': array([[ 4.17082784,  0.        ,  0.        ],
+       [-2.08541392,  3.61204286,  0.        ]]), 'substrate_vectors': array([[ 3.46357078,  0.        ,  0.        ],
+       [-1.73178539,  2.99954028,  0.        ]]), 'film_transformation': array([[ 2.,  8.],
+       [ 0., 26.]]), 'substrate_transformation': array([[ 5., 10.],
+       [ 0., 15.]]), 'strain': Strain([[-2.68503095e-03  1.48428011e-11  0.00000000e+00]
+ [ 1.48428011e-11 -2.68503093e-03  0.00000000e+00]
+ [ 0.00000000e+00  0.00000000e+00 -1.11022302e-16]]), 'von_mises_strain': 0.0017900206273451422, 'termination': ('default', 'default'), 'film_thickness': 1, 'substrate_thickness': 1, 'signed_angle': -76.1021137514392, 'decomposition_angle': 76.10211375198604}

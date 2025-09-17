@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modeling/>
+<converged>
+  <force>True</force>
+  <scf>True</scf>
+  <scf_convergent>True</scf_convergent>
+  <force_convergent>True</force_convergent>
+</converged>
+<atominfo>
+  <atoms>6</atoms>
+  <types>1</types>
+  <array name="atoms">
+    <field type="string">element</field>
+    <field type="int">atomtype</field>
+    <dimension dim="1">ion</dimension>
+    <set>
+      <rc>
+        <c>Bi</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Bi</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Bi</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Bi</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Bi</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Bi</c>
+        <c>1</c>
+      </rc>
+    </set>
+  </array>
+</atominfo>
+<energy units="Ha">
+  <i name="ion-ion">      -309.592849</i>
+  <i name="electrostatic">      -93.208417</i>
+  <i name="vxc">      -71.170637</i>
+  <i name="exc">      -113.375795</i>
+  <i name="vdw_corr">      -0.069327</i>
+  <i name="fock">      0.000000</i>
+  <i name="total">      -466.729219</i>
+</energy>
+<varray name="forces" units="Ha/a0">
+  <v>      0.000282      0.000157      -0.000004 </v>
+  <v>      -0.000043      -0.000056      -0.000231 </v>
+  <v>      -0.000320      -0.000252      -0.000526 </v>
+  <v>      0.000002      0.000096      0.000372 </v>
+  <v>      -0.000352      -0.000104      -0.000335 </v>
+  <v>      0.000430      0.000159      0.000724 </v>
+</varray>
+<varray name="stress" units="kbar">
+  <v>      -0.067275      -0.228639      -0.340898</v>
+  <v>      -0.228650      0.049306      -0.167954</v>
+  <v>      -0.338523      -0.169276      0.405863</v>
+</varray>
+<varray name="voronoi_charge">
+  <v>      0.000601 </v>
+  <v>      -0.000636 </v>
+  <v>      -0.000350 </v>
+  <v>      0.000446 </v>
+  <v>      0.000316 </v>
+  <v>      -0.000377 </v>
+</varray>
+<structure name="finalpos">
+  <crystal>
+    <varray name="basis" units="bohr">
+      <v>8.658168  0.000000  0.000000 </v>
+      <v>-4.329084  7.498194  0.000000 </v>
+      <v>0.000000  0.000000  21.656730 </v>
+    </varray>
+    <varray name="rec_basis">
+      <v>0.115498      0.066683      -0.000000 </v>
+      <v>0.000000      0.133365      0.000000 </v>
+      <v>0.000000      -0.000000      0.046175 </v>
+    </varray>
+  </crystal>
+  <varray name="positions" units="crystal">
+    <v>      0.667273      0.340370      0.907357 </v>
+    <v>      1.000533      1.007058      0.767955 </v>
+    <v>      0.003702      0.008532      0.240712 </v>
+    <v>      0.335812      0.674446      0.100918 </v>
+    <v>      0.335509      0.674340      0.573833 </v>
+    <v>      0.667410      0.340502      0.433865 </v>
+  </varray>
+</structure>

@@ -1,0 +1,225 @@
+
+Lmod is automatically replacing "cce/18.0.1" with "gcc-native/14.2".
+
+
+Lmod is automatically replacing "PrgEnv-cray/8.6.0" with "PrgEnv-gnu/8.6.0".
+
+
+Inactive Modules:
+  1) darshan-runtime
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-libsci/24.11.0     2) cray-mpich/8.1.31
+
+
+Activating Modules:
+  1) darshan-runtime/3.4.6-mpi
+
+The following have been reloaded with a version change:
+  1) gcc-native/14.2 => gcc-native/13.2
+
+
+The following have been reloaded with a version change:
+  1) Core/25.03 => Core/24.00         3) tmux/3.4 => tmux/3.2a
+  2) cmake/3.30.5 => cmake/3.23.2
+
+
+Lmod is automatically replacing "craype-x86-trento" with "craype-x86-milan".
+
+srun: error: frontier05868: task 519: Killed
+srun: Terminating StepId=3586912.0
+srun: error: frontier05220: task 375: Killed
+srun: error: frontier03279: task 157: Killed
+srun: error: frontier04701: task 279: Killed
+srun: error: frontier05596: task 447: Killed
+srun: error: frontier06109: task 567: Killed
+srun: error: frontier02155: task 15: Killed
+srun: error: frontier02520: task 40: Killed
+srun: error: frontier05093: task 351: Killed
+srun: error: frontier06094: task 556: Killed
+srun: error: frontier04190: task 221: Killed
+srun: error: frontier02776: task 85: Killed
+srun: error: frontier04443: task 255: Killed
+srun: error: frontier05346: task 388: Killed
+srun: error: frontier03933: task 207: Killed
+srun: error: frontier05966: task 532: Killed
+srun: error: frontier03149: task 136: Killed
+srun: error: frontier05714: task 460: Killed
+slurmstepd: error: *** STEP 3586912.0 ON frontier02012 CANCELLED AT 2025-07-19T02:58:56 ***
+srun: error: frontier05725: task 484: Killed
+srun: error: frontier03038: task 135: Killed
+srun: error: frontier04828: task 292: Killed
+srun: error: frontier05230: task 377: Killed
+srun: error: frontier02411: task 37: Killed
+srun: error: frontier02910: task 111: Killed
+srun: error: frontier04838: task 305: Killed
+srun: error: frontier05840: task 495: Killed
+srun: error: frontier04064: task 209: Killed
+srun: error: frontier05965: task 521: Killed
+srun: error: frontier05598: task 449: Killed
+srun: error: frontier05724: task 473: Killed
+srun: error: frontier02668: task 64: Killed
+srun: error: frontier04971: task 329: Killed
+srun: error: frontier05363: task 401: Killed
+srun: error: frontier03689: task 185: Killed
+srun: error: frontier05841: task 497: Killed
+srun: error: frontier06379: task 568: Killed
+srun: error: frontier04572: task 257: Killed
+srun: error: frontier02653: task 63: Killed
+srun: error: frontier03419: task 161: Killed
+srun: error: frontier03023: task 125: Killed
+srun: error: frontier05207: task 353: Killed
+srun: error: frontier04317: task 233: Killed
+srun: error: frontier02156: task 16: Killed
+srun: error: frontier04703: task 280: Killed
+srun: error: frontier05976: task 545: Killed
+srun: error: frontier02669: task 73: Killed
+srun: error: frontier02794: task 100: Killed
+srun: error: frontier05975: task 543: Killed
+srun: error: frontier02911: task 113: Killed
+srun: error: frontier02793: task 89: Killed
+srun: error: frontier02012: task 5: Killed
+srun: error: frontier02410: task 28: Killed
+srun: error: frontier03180: task 149: Killed
+srun: error: frontier05467: task 424: Killed
+srun: error: frontier02538: task 52: Killed
+srun: error: frontier03933: tasks 200-206: Killed
+srun: error: frontier04701: tasks 272,274-278: Killed
+srun: error: frontier04443: tasks 248-254: Killed
+srun: error: frontier05841: tasks 496,498-499,501: Killed
+srun: error: frontier05840: tasks 488,490-491,493-494: Killed
+srun: error: frontier04838: tasks 304,307-311: Killed
+srun: error: frontier04971: tasks 328,330-335: Killed
+srun: error: frontier03804: tasks 192,196,198-199: Killed
+srun: error: frontier04317: tasks 232,234-239: Killed
+srun: error: frontier05976: tasks 544,546-551: Killed
+srun: error: frontier05093: tasks 344,346,348,350: Killed
+srun: error: frontier04962: tasks 321-325,327: Killed
+srun: error: frontier05596: tasks 440-446: Killed
+srun: error: frontier05458: tasks 416-418,420-423: Killed
+srun: error: frontier04961: tasks 312,315-317,319: Killed
+srun: error: frontier04195: tasks 224,226-230: Killed
+srun: error: frontier04703: tasks 281,283-286: Killed
+srun: error: frontier05598: tasks 448,450-452,454-455: Killed
+srun: error: frontier05347: tasks 392-395,397-398: Killed
+srun: error: frontier04318: tasks 240,242,244-247: Killed
+srun: error: frontier06379: tasks 569-575: Killed
+srun: error: frontier05207: tasks 352,354-355,357-359: Killed
+srun: error: frontier04829: tasks 296-302: Killed
+srun: error: frontier04064: tasks 208,210-214: Killed
+srun: error: frontier05850: tasks 504,506-507,509-511: Killed
+srun: error: frontier02668: tasks 65-68,70-71: Killed
+srun: error: frontier05219: tasks 360,362-363,365-367: Killed
+srun: error: frontier04828: tasks 288,290-291,293-295: Killed
+srun: error: frontier06094: tasks 552,554-555,557-559: Killed
+srun: error: frontier04572: tasks 256,258-263: Killed
+srun: error: frontier05724: tasks 472,474-479: Killed
+srun: error: frontier05220: tasks 368-374: Killed
+srun: error: frontier02653: tasks 56,58-59,61-62: Killed
+srun: error: frontier05468: tasks 432,434-439: Killed
+srun: error: frontier05230: tasks 376,379-383: Killed
+srun: error: frontier03038: tasks 128,130-132,134: Killed
+srun: error: frontier05965: tasks 520,522-525,527: Killed
+srun: error: frontier05868: tasks 512-518: Killed
+srun: error: frontier03689: tasks 184,186,188-191: Killed
+srun: error: frontier05092: tasks 336,338-343: Killed
+srun: error: frontier05457: tasks 408-415: Killed
+srun: error: frontier06109: tasks 560-566: Killed
+srun: error: frontier04190: tasks 216-220,222-223: Killed
+srun: error: frontier05715: tasks 464-471: Killed
+srun: error: frontier02520: tasks 41-42,44-47: Killed
+srun: error: frontier05966: tasks 528-531,533-535: Killed
+srun: error: frontier04573: tasks 264-271: Killed
+srun: error: frontier05346: tasks 384-387,389-391: Killed
+srun: error: frontier03279: tasks 152-156: Killed
+srun: error: frontier05725: tasks 480-483,485-487: Killed
+srun: error: frontier03149: tasks 137,139-143: Killed
+srun: error: frontier05363: tasks 400,402-407: Killed
+srun: error: frontier05714: tasks 456-459,461-463: Killed
+srun: error: frontier02776: tasks 80-84: Killed
+srun: error: frontier02155: tasks 8,10-11,13-14: Killed
+srun: error: frontier03419: tasks 160,162-167: Killed
+srun: error: frontier03544: task 172: Killed
+srun: error: frontier02411: tasks 32-36: Killed
+srun: error: frontier03023: task 123: Killed
+srun: error: frontier02156: tasks 17-18,20-22: Killed
+srun: error: frontier04829: task 303: Killed
+srun: error: frontier04701: task 273: Killed
+srun: error: frontier06094: task 553: Killed
+srun: error: frontier04838: task 306: Killed
+srun: error: frontier05230: task 378: Killed
+srun: error: frontier05458: task 419: Killed
+srun: error: frontier05965: task 526: Killed
+srun: error: frontier05598: task 453: Killed
+srun: error: frontier03689: task 187: Killed
+srun: error: frontier05207: task 356: Killed
+srun: error: frontier02520: task 43: Killed
+srun: error: frontier04064: task 215: Killed
+srun: error: frontier03149: task 138: Killed
+srun: error: frontier02668: task 69: Killed
+srun: error: frontier02410: task 26: Killed
+srun: error: frontier04828: task 289: Killed
+srun: error: frontier05840: tasks 489,492: Killed
+srun: error: frontier05468: task 433: Killed
+srun: error: frontier04703: tasks 282,287: Killed
+srun: error: frontier05092: task 337: Killed
+srun: error: frontier05975: tasks 536-542: Killed
+srun: error: frontier02012: task 4: Killed
+srun: error: frontier05093: tasks 345,347,349: Killed
+srun: error: frontier02538: task 51: Killed
+srun: error: frontier05347: tasks 396,399: Killed
+srun: error: frontier03180: tasks 147-148: Killed
+srun: error: frontier02793: tasks 88,90-95: Killed
+srun: error: frontier05841: tasks 500,502-503: Killed
+srun: error: frontier05467: tasks 425-431: Killed
+srun: error: frontier04962: tasks 320,326: Killed
+srun: error: frontier04961: tasks 313-314,318: Killed
+srun: error: frontier03804: tasks 193-195,197: Killed
+srun: error: frontier05850: tasks 505,508: Killed
+srun: error: frontier04195: tasks 225,231: Killed
+srun: error: frontier05219: tasks 361,364: Killed
+srun: error: frontier04318: tasks 241,243: Killed
+srun: error: frontier02653: tasks 57,60: Killed
+srun: error: frontier03038: tasks 129,133: Killed
+srun: error: frontier03279: task 159: Killed
+srun: error: frontier02776: task 87: Killed
+srun: error: frontier02155: tasks 9,12: Killed
+srun: error: frontier02669: task 76: Killed
+srun: error: frontier02411: task 38: Killed
+srun: error: frontier02156: tasks 19,23: Killed
+srun: error: frontier03180: tasks 145-146,150-151: Killed
+srun: error: frontier03544: task 173: Killed
+srun: error: frontier02012: tasks 0-1,6-7: Killed
+srun: error: frontier02410: tasks 29-31: Killed
+srun: error: frontier02012: tasks 2-3: Killed
+srun: error: frontier02669: task 72: Killed
+srun: error: frontier03279: task 158: Killed
+srun: error: frontier02776: task 86: Killed
+srun: error: frontier02411: task 39: Killed
+srun: error: frontier02410: task 27: Killed
+srun: error: frontier02538: tasks 48-50,53-55: Killed
+srun: error: frontier02669: task 77: Killed
+srun: error: frontier02794: task 101: Killed
+srun: error: frontier02669: task 78: Killed
+srun: error: frontier03180: task 144: Killed
+srun: error: frontier02669: task 75: Killed
+srun: error: frontier02910: tasks 104-107,109-110: Killed
+srun: error: frontier02911: tasks 112,114-115,117-119: Killed
+srun: error: frontier02910: task 108: Killed
+srun: error: frontier02911: task 116: Killed
+srun: error: frontier03023: tasks 120-122,124,126-127: Killed
+srun: error: frontier02410: tasks 24-25: Killed
+srun: error: frontier02669: task 74: Killed
+srun: error: frontier02794: task 97: Killed
+srun: error: frontier03544: task 171: Killed
+srun: error: frontier03544: tasks 174-175: Killed
+srun: error: frontier02794: tasks 102-103: Killed
+srun: error: frontier02669: task 79: Killed
+srun: error: frontier02794: task 96: Killed
+srun: error: frontier02794: tasks 98-99: Killed
+srun: error: frontier03544: tasks 168-170: Killed
+srun: error: frontier03673: task 183: Killed
+srun: error: frontier03673: tasks 180-182: Killed
+srun: error: frontier03673: tasks 178-179: Killed
+srun: error: frontier03673: tasks 176-177: Killed
+srun: Force Terminated StepId=3586912.0

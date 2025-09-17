@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modeling/>
+<converged>
+  <force>True</force>
+  <scf>True</scf>
+  <scf_convergent>True</scf_convergent>
+  <force_convergent>True</force_convergent>
+</converged>
+<atominfo>
+  <atoms>2</atoms>
+  <types>1</types>
+  <array name="atoms">
+    <field type="string">element</field>
+    <field type="int">atomtype</field>
+    <dimension dim="1">ion</dimension>
+    <set>
+      <rc>
+        <c>Nb</c>
+        <c>1</c>
+      </rc>
+      <rc>
+        <c>Nb</c>
+        <c>1</c>
+      </rc>
+    </set>
+  </array>
+</atominfo>
+<energy units="Ha">
+  <i name="ion-ion">      -99.861837</i>
+  <i name="electrostatic">      -14.504248</i>
+  <i name="vxc">      -17.999311</i>
+  <i name="exc">      -13.822722</i>
+  <i name="vdw_corr">      -0.042617</i>
+  <i name="fock">      0.000000</i>
+  <i name="total">      -114.183142</i>
+</energy>
+<varray name="forces" units="Ha/a0">
+  <v>      0.000000      0.000000      0.000000 </v>
+  <v>      0.000000      0.000000      0.000000 </v>
+</varray>
+<varray name="stress" units="kbar">
+  <v>      -0.019304      0.000000      -0.000000</v>
+  <v>      -0.000000      -0.019304      0.000000</v>
+  <v>      0.000000      -0.000000      -0.019304</v>
+</varray>
+<varray name="voronoi_charge">
+  <v>      -0.005979 </v>
+  <v>      0.005979 </v>
+</varray>
+<structure name="finalpos">
+  <crystal>
+    <varray name="basis" units="bohr">
+      <v>6.158814  0.000000  0.000000 </v>
+      <v>0.000000  6.158814  0.000000 </v>
+      <v>0.000000  0.000000  6.158814 </v>
+    </varray>
+    <varray name="rec_basis">
+      <v>0.162369      0.000000      0.000000 </v>
+      <v>0.000000      0.162369      0.000000 </v>
+      <v>0.000000      0.000000      0.162369 </v>
+    </varray>
+  </crystal>
+  <varray name="positions" units="crystal">
+    <v>      0.000000      0.000000      0.000000 </v>
+    <v>      0.500000      0.500000      0.500000 </v>
+  </varray>
+</structure>
